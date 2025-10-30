@@ -1,0 +1,25 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Slides",
+      "type": "shell",
+      "command": "TALK=${input:talk} npm run dev",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Export PDF",
+      "type": "shell",
+      "command": "TALK=${input:talk} npm run pdf"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "talk",
+      "type": "promptString",
+      "description": "Presentation folder (e.g., parc-slides, my-new-talk)",
+      "default": "parc-slides"
+    }
+  ]
+}
