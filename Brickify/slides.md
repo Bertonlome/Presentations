@@ -1,212 +1,311 @@
-# Presentation
-<span class="kicker">Brickify: Enabling Expressive Design Intent Specification through Direct Manipulation on Design Tokens.    
-In Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems</span>  
-<span class="title-underline">Xinyu Shi, Yinghou Wang, Ryan Rossi, and Jian Zhao</span>
+<h1 class = "r-fit-text">Brickify</h1>  
+
+**Enabling Expressive Design Intent Specification through Direct Manipulation on Design Tokens**  
+*CHI 2025 — Xinyu Shi, Yinghou Wang, Ryan Rossi, Jian Zhao*
 
 Notes:
-- My First Notes
-- My Second Notes
 
 ---
 
 <section class="slide--section">
   <div class="rule"></div>
-  <h1>First title</h1>
+  <h1 class = "r-fit-text">1. Introduction</h1>
 </section>
 
 ---
-Introduce Brickify, a tool that extracts visual elements from reference images and converts them into interactive, reusable design tokens, that can be directly manipulated.
----
-The design problem : 
-Design as supposed: designer branch_decisions_1--> design
-Design as proposed by TTI gen-AI: designer --> crappy intent --> model branch_decision_1 --> design
----
-Proving the difficulty of using natural language for visual description:
--maybe do a quick little game where student are asked to provide a description to a tricky fuzzy image. Proof that natural language is a poor channel for visual description.
-first example can be serious, as simple as name the colo, as simple as name the color.and the second can be the gold/blue robe to express that individual differences in perception is a first difficulty
----
-User study : n=12 experienced designers.
-1. Replication task, designers have a clear intent. We compare brickify with textual-centric prompting.
-2. Open-ended task.
----
-Mood board:
-Brickify allows for sub-elements to be extracted from mood-board as design tokens.
----
-Specifying intent Comparison with 
-1. Modular prompting
-2. Multimodal prompting
-3. Prompting through direct manipulation
----
-Translating intent comparison with
-1. Subject-driven and style-specific personalized generation.
-2. Spatial-aware controllable image generation and editing
----
-User-centered Design methodology for Brickify.
-S1. Problem understanding (method: semi-structured interview with six design experts)
-  -Challenge 1: Failure to convery designer's attended elements to AI, active vision (e.g. selecting an image for a moodboard for a texture/detail)
-  -Design goal 1: externalize designer's selective focus
-  -Challenge 2: Difficulty in verbalizing element relationships, (it is not a textual task fundamentally, it is about spatial relationship between visual element)
-  -Design goal 2: a flexible 2D workspace here designers can visually arrange and manipulate elements.
-  -Challenge 3: Inefficiencies in iterative refinements (copy and paste previous prompt) 
-  Design goal 3: Reuse individual elements to reduce repetitive manual work
-S2. Early prototyping (method : co-design process with an expert designer)
-  -weekly 30 minutes design meetings
-  -low-fidelity mock-ups
-  -non-functional prototype in Figma
-  outcome: 1. reifying, 2. direct manipulation
-S3. Prototype iteration (method: user study)
-  -6 designers
-  1. walkthrough the system
-  2. exploratory use of the system with think-aloud verbalizations.
-  feedback : strengthen the visual association between design tokens and original imagery to improvie clarity; introducing a cross-referencing feature to allow for more effective descriptions of relationships between subject tokens; added imaginatie token to the interaction vocabulary.
-S4. System evaluation (Controlled user study)
-  -12 participants
-  -remote study 1 then 2
-  -audio and video recorded
-  -75-100 minutes
-  -Creativity Support Index questionnaire after the two studies
-  1. study 1: RQ: how does the visual-centric interaction paradigm of Brickify compare to the textual-centric paradigm in terms of clarity, mental effort and time investment for expressing design intent?
-     1. 2x2 within-subject design with two primary factors: TECHNIQUE (BRICKIFY or BASELINE) x DIFFICULTY (EASY or HARD). Baseline means text prompt in a google doc, easy was set by an expert designer with fewer elements and simpler composition. random assignment
-     2. Measurements:
-        1. human-evaluation approach, with three external raters. using 5 likert scales:
-           1. element coverage
-           2. size clarity
-           3. position clarity
-           4. style clarity
-           5. color clarity
-        2. Participants' responses to five question evaluating intent expression
-        3. Task completion times
-        4. Participants' preferences betwen the two techniques
-        5. Self reported cognitive load during the tasks (7-point likert scale)
-  2. Study 2: RQ: How does BRICKIFY influence users' creative exploration when they start without a clear intent?
-     1. Create a graphic series for a children's storybook about the adventures of an owl. the user needs to maintain visual consistency across all images. no time limit.
-Show the HCD diagram to compare
----
-Brickify: the system
-Token types:
-  -Visual token
-  -Textual token
-  -Imaginative token
-  ![design tokens](image.png)
-  can be persistent or temporary for reuse without overwhelming
-  content-related tokens are persistent, context-related tokens are temporary
----
-Brickify: the system
-Direct manipulation:
-![Direct-manipulation](image-1.png)
-intuitive actions : 
-- Drag-and-drop
-- Move 
-- Resize
-- Group
-- Link
-- Cross-reference
----
-Brickify interface
-![Brickify interface](image-2.png)
----
-Brickify technical details:
-I am not going to cover these
----
-User study results
-![likert responses](image-3.png)
-![external rating](image-4.png)
-![task completion time](image-5.png)
-![self-reported preference and cognitive load](image-6.png)
----
-statistical analysis
-non-parametric Aligned Rank Transform ANOVA to understand influence of TECHNIQUE and DIFFICULTY on user's self reported design intent expression experience
-two-way random Intraclass Correlation Coefficient to measure the reliability of the ratings
----
-User behavior
-![Token usage across studies](image-7.png)
-![self-reported CSI](image-8.png)
-![P3 example](image-9.png)
----
-Observation and feedback
-![Failure case](image-10.png)
 
+## Visual abstract
 
-## Axiom
-Tools should **amplify thought**, not merely **automate tasks**.
-
-- Media shape ideas we are able to express.
-- When the medium is *wrong*, progress stalls.
-
+<div class="r-stack">
+<img
+  class="r-stretch"
+  style="max-width:100%"
+  src="image-16.png"
+  alt="Interface diagram"
+/>
+</div>
 Notes:
-- Name-check Engelbart / PARC lineage.
-- Tie to audience’s domain in one sentence.
-
+I won't talk about the technical implementations of Brickify since it is outside the scope of the course
 ---
 
-## Constraint → Consequence
-- If our medium is **static documents**, we get **passive thinking**.  
-- With **live, malleable representations**, we get **interactive reasoning**.
-
-<div class="footnote">
-Example: spreadsheets vs. narrative memos; live models vs. slide bullets.
+<h2  class="r-fit-text"> The Design Problem: </h2>
+<div class="r-stack">
+<img
+  class="r-stretch"
+  src="flowchart.svg"
+  alt="Flowchart design process"
+/>
 </div>
 
-Notes:
-- Keep tempo brisk; 20–30s per bullet.
-- Gesture the contrast (static vs. live) with a quick demo if possible.
+
+---
+Is Natural language good at describing visuals?
+<div class="r-stack">
+<ul>
+<li class="fragment">Can you name those colors ?</li>
+<div style="display: flex; gap: 10px;">
+<img class="fragment" src="color1.png">
+<img class="fragment" src="color2.png">
+<img class="fragment" src="color3.png">
+</div>
+</ul>
 
 ---
 
-<section class="slide--section">
-  <div class="rule"></div>
-  <h1>Three Shifts</h1>
-</section>
+Is Natural language good at describing visuals?
 
----
-
-## 1) From Describing → to Manipulating
-- Not *about* the system — **touch the system**.  
-- Visibility → Directability → Predictability.
-
-Notes:
-- Briefly define O/D/P if relevant (HAT tie-in).
-
----
-
-## 2) From Artifacts → to Media
-- Programs as **materials** we shape.  
-- Code as **communication** with ourselves.
-
----
-
-## 3) From Solo → to Situated
-- Tools are **social** and **spatial**.  
-- Interfaces should model **teams**, not users.
-
----
-
-<section class="slide--section">
-  <div class="rule"></div>
-  <h1>Implication</h1>
-</section>
-
----
-
-## Design Principle
-**One idea per slide.**  
-Prefer **clear sentences** over decorative graphics.
-
-<div class="blockquote">
-“Show me a medium and I will show you the kinds of thoughts it makes possible.”
+What is the color of the dress?
+<div class="r-stack">
+<img
+  class="r-stretch"
+  src="image-11.png"
+/>
 </div>
 
-Notes:
-- Keep this slide up while you speak ~45s.
+---
+Is Natural language good at describing visuals?
+<ul>
+<li class="fragment">Imprecise spatial relations</li>
+<div style="display: flex; gap: 10px; justify-content: center;">
+<img class="fragment" src="image-12.png" style="max-width: 100%;">
+</div>
+</ul>
+---
+
+<section class="slide--section">
+  <div class="rule"></div>
+  <h1 class = "r-fit-text">2. Brickify Concept</h1>
+</section>
 
 ---
 
-## What To Do Monday
-- Replace bullet decks with **live documents**.  
-- Make the **model visible**.  
-- Bias for **manipulability** over reporting.
+## **Brickify** introduces a visual-centric paradigm:  
 
-Notes:
-- End with a concrete invitation.
+---
+
+## From Text to Tokens
+
+<div class="r-stack">
+<img class="fragment" src="moodboard.png" style="max-width: 60%;">
+<img class="fragment" src="moodboard_extract.png" style="max-width: 60%;">
+</div>
+
+---
+
+## From Tokens to Image
+
+<div class="r-stack">
+<img src="moodboard_extract.png" style="max-width: 60%;">
+<img class="fragment" src="moodboard_position.png" style="max-width: 60%;">
+</div>
+
+---
+
+Each visual element becomes a **design token**.  
+
+<li>Extract tokens from reference images</li> 
+<img class="fragment" src="token_extraction.png" style="max-width: 60%;">
+<li>Manipulate tokens (move, resize, link, group)</li> 
+<img class="fragment" src="direct_manipulation.png" style="max-width: 60%;">
+<li>Build a visual lexicon representing intent</li> 
+<img class="fragment" src="tokens.png" style="max-width: 60%;">
+
+---
+
+<div class="r-stack">
+<img
+  class="r-stretch"
+  style="max-width:100%"
+  src="image-15.png"
+  alt="Interface diagram"
+/>
+</div>
+---
+
+<div class="r-stack">
+<img
+  class="r-stretch"
+  style="max-width:100%"
+  src="image-14.png"
+  alt="Interface diagram"
+/>
+</div>
+
+---
+<div class="r-stack">
+<img
+  class="r-stretch"
+  style="max-width:100%"
+  src="image-17.png"
+  alt="Interface diagram"
+/>
+</div>
+---
+
+<section class="slide--section">
+  <div class="rule"></div>
+  <h1 class = "r-fit-text">3. Design Process</h1>
+</section>
+
+---
+
+## Four Stages
+
+**S1 – Problem Understanding:** 6 semi-structured interviews with SME 
+
+**S2 – Early Prototyping:** co-design with 1 expert designer  
+
+**S3 – Iteration:** feedback from 6 designers following a user test 
+
+**S4 – Evaluation:** controlled user study (N = 12)
+Notes: What is this design process ?
+---
+
+## Four Stages of HCD for comparison (ISO9241-210)
+<div class="r-stack">
+  <img src="image-13.png" class="stretch" width="100%"/>
+</div>
+---
+
+## S1 - Problem Understanding
+
+Identified Challenges and associated Design Goals
+
+<ul>
+<li class="fragment">C1: Failing to convey attended elements to AI</li>
+<ul><li class="fragment">DG1: Externalize selective focus</li></ul>
+<li class="fragment">C2: Hard to verbalize relationships </li> 
+<ul><li class="fragment">DG2: Enable spatial management & visual communication</li></ul>
+<li class="fragment">C3: Inefficient iterative refinement</li>  
+<ul><li class="fragment">DG3: Facilitate reuse & iteration</li></ul>
+</ul>
+
+---
+
+## S2 - Early Prototyping:
+- Weekly 30 minutes design meetings
+- Low-fidelity mock-ups
+- Non-functional prototype in Figma
+
+---
+
+## S3 - Prototype iteration
+User study (n=6) designers
+1. Walkthrough of the system
+2. Exploratory use of the system with think-aloud verbalizations.
+
+---
+
+## S3 - Prototype iteration
+Feedback
+1. Strengthen the visual association between design tokens and original imagery to improve clarity
+2. Introducing a cross-referencing feature to allow for more effective descriptions of relationships between subject tokens.
+3. Added imaginative token to the interaction vocabulary
+
+---
+
+## S4: System evaluation
+**Controlled user study** **Participants:** (n=12) experienced designers  
+
+Two tasks:
+1. **Task 1:** replication with a clear intent  
+2. **Task 2:** open-ended exploration
+
+---
+
+## Task 1 — Comparison
+RQ: how does the visual-centric interaction paradigm of Brickify compare to the textual-centric paradigm in terms of clarity, mental effort and time investment for expressing design intent?
+
+2×2 within-subject design:  
+**Technique** (Brickify vs Baseline) × **Difficulty** (Easy vs Hard)
+
+<div class="r-stack">
+  <img src="image-18.png" class="stretch" width="100%"/>
+</div>
+
+---
+
+## Task 1 — Comparison
+
+Metrics:
+
+- human-evaluation (3 external raters using 5 likert scales)
+  <br>Element coverage, Size clarity, Position clarity, Style clarity, Color clarity
+- Self evaluation of intent expression (5 questions)  
+- Task time (initial completion and refinement) 
+- Preferences  
+- Self reported cognitive load   
+
+
+---
+
+## Task 1 — Results
+Participants showed a clear preference for Brickify
+
+Brickify led to:
+- ↑ Design intent expression experience
+- ↓ Mental effort and frustration  
+- ↑ Initial completion time
+- ↓ Refinement time (in hard tasks)
+
+Human raters confirmed **higher clarity in size, position, color, and style**.
+
+---
+
+## Task 2 — Exploration
+RQ: How does BRICKIFY influence users' creative exploration when they start without a clear intent?
+
+Task: create 3 storybook scenes about an owl’s adventures.  
+Focus: creativity, consistency, and reuse of tokens.
+Metrics:
+- Creativity Support Index
+- Token usage
+<div class="r-stack">
+  <img src="image-19.png" class="stretch" width="100%"/>
+</div>
+Notes: In this task, participants assumed the role of junior graphic designers tasked with creating a graphic series for a children’s storybook about the adventures of an owl. The senior designer provided four reference images (Figure 8) to define the visual characteristics. Participants were asked to create three images depicting scenes where the owl, with or without his friend and car, embarks on an adventure. The task required maintaining visual consistency across all images. There was no time limit, and participants worked until they felt their designs were complete.
+
+---
+<section class="image-slide">
+
+## Task 2 - Results
+
+Brickify shows strong support for creativity, effectively supports idea exploration, and is generally enjoyable to use.
+
+</section>
+
+---
+
+<section class="slide--section">
+  <div class="rule"></div>
+  <h1>7. Discussion</h1t>
+</section>
+
+---
+
+## Limitations
+- Visual lexicon extraction could be improved
+- Inference and computation costs could hinder user experience
+- Brickify might fail in describing unseen visuals beyond recombination
+- Study results might not be generalizable for design novices
+
+---
+## What about Multiple views and projection?
+
+<div class="r-stack">
+<img
+  class="r-stretch"
+  style="max-width:100%"
+  src="image-17.png"
+  alt="Interface diagram"
+/>
+</div>
+
+
+---
+
+## Thank You
+Questions?  
+[https://doi.org/10.1145/3706598.3714087](https://doi.org/10.1145/3706598.3714087)
 
 ---

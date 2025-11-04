@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "live-server --open=${TALK:-parc-slides}/index.html --port=5500",
-    "pdf": "npx decktape reveal http://127.0.0.1:5500/${TALK:-parc-slides}/index.html export.pdf",
+    "pdf": "npx decktape automatic http://127.0.0.1:5500/${TALK:-parc-slides}/index.html export.pdf",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

@@ -48,19 +48,22 @@
   <script src="../node_modules/reveal.js/dist/reveal.js"></script>
   <script src="../node_modules/reveal.js/plugin/markdown/markdown.js"></script>
   <script src="../node_modules/reveal.js/plugin/notes/notes.js"></script>
+  <script src="../node_modules/reveal.js/plugin/zoom/zoom.js"></script>
 
   <script>
     // 4:3 for authentic rétroprojecteur (change to 1920x1080 for 16:9)
     const deck = new Reveal({
       hash: true,
-      width: 1920,        // 16:9
-      height: 1080,       // 16:9
-      margin: 0.12,
-      controls: false,   // no UI chrome
-      progress: false,
+      width: 960,        // 16:9
+      height: 700,       // 16:9
+      margin: 0.04,
+      //controls: false,   // no UI chrome
+      minScale: 0.2,
+      maxScale: 2.0,
+      //progress: false,
       transition: 'none',
-      slideNumber: false,
-      plugins: [ RevealMarkdown, RevealNotes ]
+      slideNumber: true,
+      plugins: [ RevealMarkdown, RevealNotes , RevealZoom ]
     });
     // After init, add custom keybindings
     deck.initialize().then(() => {
