@@ -39,7 +39,7 @@ I won't talk about the technical implementations of Brickify since it is outside
 
 
 ---
-Is Natural language good at describing visuals?
+The TTI problem: Is Natural language good at describing visuals?
 <div class="r-stack">
 <ul>
 <li class="fragment">Can you name those colors ?</li>
@@ -52,7 +52,7 @@ Is Natural language good at describing visuals?
 
 ---
 
-Is Natural language good at describing visuals?
+The TTI problem: Is Natural language good at describing visuals?
 
 What is the color of the dress?
 <div class="r-stack">
@@ -63,7 +63,7 @@ What is the color of the dress?
 </div>
 
 ---
-Is Natural language good at describing visuals?
+The TTI problem: Is Natural language good at describing visuals?
 <ul>
 <li class="fragment">Imprecise spatial relations</li>
 <div style="display: flex; gap: 10px; justify-content: center;">
@@ -294,8 +294,14 @@ Brickify shows strong support for creativity, effectively supports idea explorat
 
 <div class="r-stack">
 <img
-  class="r-stretch"
   style="max-width:100%"
+  src="image-20.png"
+  alt="Interface diagram"
+/>
+</div>
+<div class="r-stack">
+<img
+  style="max-width:80%"
   src="image-17.png"
   alt="Interface diagram"
 />

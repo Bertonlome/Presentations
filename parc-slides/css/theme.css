@@ -8,37 +8,26 @@
   --font-accent: "OCR A", "OCR-A", ui-monospace, monospace;
   --fg: #000;         /* strict black */
   --bg: #fff;         /* strict white */
-  --grid-l: 72px;     /* generous left margin for that overhead look */
-  --grid-r: 72px;
-  --grid-t: 60px;
-  --grid-b: 60px;
-  --tracking: 0.035em;      /* subtle letter-spacing for 1970s feel */
+  --grid-l: 4vw;      /* responsive left margin based on viewport width */
+  --grid-r: 4vw;      /* responsive right margin */
+  --grid-t: 3vh;      /* responsive top margin based on viewport height */
+  --grid-b: 3vh;      /* responsive bottom margin */
+  --tracking: 0.0em;      /* subtle letter-spacing for 1970s feel */
   --tracking-tight: 0.01em; /* headings: slightly tighter */
-  --lh: 1.28;               /* body line-height */
+  --lh: 1.18;               /* body line-height */
   --lh-tight: 1.18;         /* headings line-height */
+  --base-font-size: 1.1vw;  /* responsive base font size */
 }
-
-html, body { background: var(--bg); }
-.reveal { color: var(--fg); text-shadow: none; }
 
 /* Base typography */
 .reveal {
   font-family: var(--font-main);
-  font-size: 42px;           /* B2: textual but still big */
+  font-size: var(--base-font-size);  /* responsive font size */
   letter-spacing: var(--tracking);
   line-height: var(--lh);
 }
 
-/* Disable box shadows / borders on slides */
-.reveal section { box-shadow: none !important; border: 0; }
-
-/* Left align everything for “printed transparency” feel */
 .reveal .slides { text-align: left; }
-
-/* Slide content frame (manual grid) */
-.reveal .slides > section {
-  padding: var(--grid-t) var(--grid-r) var(--grid-b) var(--grid-l);
-}
 
 /* Headings: bold but not flamboyant */
 .reveal h1, .reveal h2, .reveal h3 {
@@ -46,15 +35,15 @@ html, body { background: var(--bg); }
   letter-spacing: var(--tracking-tight);
   line-height: var(--lh-tight);
   margin: 0 0 0.5em 0;
-}
-.reveal h1 { font-size: 1.9em; }
-.reveal h2 { font-size: 1.5em; }
-.reveal h3 { font-size: 1.25em; }
+} 
+.reveal h1 { font-size: 2.5em; } */
+.reveal h2 { font-size: 1.5em; } */
+.reveal h3 { font-size: 1.25em; } */
 
 /* Paragraph rhythm for B2 (textual, punchy) */
-.reveal p { margin: 0 0 0.75em 0; }
-.reveal ul, .reveal ol { margin: 0.2em 0 0.8em 1.1em; }
-.reveal li { margin: 0.15em 0; }
+/* .reveal p { margin: 0 0 0.75em 0; } */
+.reveal ul, .reveal ol { text-align: left ; margin: 0.2em 0 0.8em 1.1em; }
+.reveal ul li, .reveal ol li { margin: 1em 0;}
 
 /* Links: underlined, no color change */
 .reveal a { color: inherit; text-decoration: underline; }
@@ -81,6 +70,10 @@ html, body { background: var(--bg); }
   text-transform: uppercase;
   letter-spacing: 0.08em;
   margin-top: 0.2em;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  max-width: 100%;
 }
 .rule {
   height: 2px; background: var(--fg);
@@ -88,8 +81,8 @@ html, body { background: var(--bg); }
 }
 
 /* Two-column helper for compact textual slides */
-.columns { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2em; }
-.columns .col { min-width: 0; }
+/* .columns { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2em; }
+.columns .col { min-width: 0; } */
 
 /* Footnote (for citations / asides) */
 .footnote {
@@ -106,7 +99,82 @@ html, body { background: var(--bg); }
 }
 
 /* Inline code—keep it unobtrusive */
-.reveal code, .reveal pre { background: transparent; border: none; padding: 0; }
+/* .reveal code, .reveal pre { background: transparent; border: none; padding: 0; } */
+
+/* Center all images automatically */
+/* .reveal img {
+  display: block;
+  margin: 0;
+  max-width: 90vw; /* Don't let images get too wide on any screen 
+  max-height: 80vh; /* Don't let images get too tall 
+  height: 80vh;
+} */
+
+/* Make images larger when they are the only content on a slide */
+/* .reveal section > p:only-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+} */
+
+/* .reveal section > p:only-child img,
+.reveal section > img:only-child {
+  width: 80vw; /* Take up 80% of viewport width 
+  max-width: 80vw;
+  height: 80vh;
+} */
+
+/* Make images larger when there's only a heading and one image */
+/* .reveal section:has(h1, h2, h3):has(img):not(:has(p:not(:has(img)))) img,
+.reveal section > h1 + p:last-child img,
+.reveal section > h2 + p:last-child img,
+.reveal section > h3 + p:last-child img {
+  width: 80vw;
+  max-width: 80vw;
+  height: 80vh;
+} */
+
+/* Fallback for browsers that don't support :has() - using class-based approach */
+/* .reveal section.image-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100vh;
+  padding: var(--grid-t) var(--grid-r) var(--grid-b) var(--grid-l);
+} */
+
+/* .reveal section.image-slide h1,
+.reveal section.image-slide h2,
+.reveal section.image-slide h3 {
+  margin-bottom: 2em; /* Add space after title 
+  flex-shrink: 0;
+  align-self: flex-start; /* Keep title left-aligned as per theme 
+} */
+
+/* .reveal section.image-slide p {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin: 0;
+  width: 100%;
+  min-height: 0; /* Allow flex item to shrink 
+}
+
+.reveal section.image-slide img {
+  width: 75vw;
+  max-width: 75vw;
+  height: 80vh;
+  max-height: 60vh; /* Prevent image from being too tall 
+}
+
+/* Alternative class for full-width images when explicitly needed */
+/* .reveal .full-width img {
+  width: 85vw;
+  max-width: 85vw;
+  height: auto;
+} */ */
 
 /* Presenter inline cue-card notes (toggle via JS if you kept that flow) */
 body.show-notes .reveal aside.notes {
@@ -119,4 +187,56 @@ body.show-notes .reveal aside.notes {
   max-height: 35vh; overflow: auto; z-index: 9999;
 }
 .reveal aside.notes { display: none; }
+
+/* Responsive design for different screen sizes */
+/* Large screens (desktop) */
+/* @media (min-width: 1200px) {
+  :root {
+    --base-font-size: 2.2vw;
+    --grid-l: 3.5vw;
+    --grid-r: 3.5vw;
+    --grid-t: 2.5vh;
+    --grid-b: 2.5vh;
+  }
+} */
+
+/* /* Medium screens (tablets, small laptops) 
+@media (max-width: 1199px) and (min-width: 768px) {
+  :root {
+    --base-font-size: 3vw;
+    --grid-l: 4vw;
+    --grid-r: 4vw;
+    --grid-t: 3vh;
+    --grid-b: 3vh;
+  }
+}
+
+/* Small screens (phones, small tablets) 
+@media (max-width: 767px) {
+  :root {
+    --base-font-size: 4vw;
+    --grid-l: 5vw;
+    --grid-r: 5vw;
+    --grid-t: 4vh;
+    --grid-b: 4vh;
+  }
+  
+  /* Adjust columns for small screens 
+  .columns { 
+    grid-template-columns: 1fr; 
+    gap: 0.8em; 
+  }
+}
+
+/* Very small screens 
+@media (max-width: 480px) {
+  :root {
+    --base-font-size: 5vw;
+    --grid-l: 6vw;
+    --grid-r: 6vw;
+    --grid-t: 5vh;
+    --grid-b: 5vh;
+  }
+}
+ */
 /* End of theme.css */
