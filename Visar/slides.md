@@ -1,6 +1,6 @@
 
 
-<h1 class = "r-fit-text">VISAR</h1>  
+<h1 class = "r-fit-text">VISAR Extended : Research Proposal</h1>  
 
 **A Human–AI Argumentative Writing Assistant with Visual Programming and Rapid Draft Prototyping**  
 *UIST 2023 — Yujie Ji, Ruofei Du, and Jian Zhao*
@@ -19,7 +19,7 @@ I position myself as a *prospective PhD student* building on VISAR to investigat
 
 ## VISAR’s Core Idea
 
-VISAR combines **visual programming** and **rapid draft prototyping** to support **argumentative writing planning**.  
+VISAR combines **visual programming** and **draft prototyping** to support **argumentative writing planning**.  
 
 <div class="r-stack">
 <img class="r-stretch" src="visar_UI.png" alt="VISAR interface" width="80%"/>
@@ -42,7 +42,7 @@ VISAR combines **visual programming** and **rapid draft prototyping** to support
     <ul>
       <li>VISAR drafts = <em>passing quality</em> but not excellence</li>
       <li>Lower scores on <strong>Logic & Organization, Coherence & relevance, consistency and clarity</strong> than baseline and GPT Playground</li>
-      <li>Users valued structure, yet noted <strong>loss of cohesion and narrative flow</strong></li>
+      <li>Users valued structure, yet raters noted <strong>loss of cohesion and narrative flow</strong></li>
     </ul>
   </div>
   <div class="image-stack">
@@ -96,7 +96,7 @@ Participants reported:
 <p class="fragment">Prompt: “Write a paragraph supporting the following claim: Online education is effective. Use a formal tone and logical reasoning.”<br> --> results: "Firstly, online education provides flexibility"</p>
 - **No discourse transitions** 
 <p class="fragment">"Online education is convenient. Students can learn anywhere. Some students may lack discipline."</p>
-- **Missing argumentative components** 
+- **Missing argumentative components** from Toulmin's model <sup class="footnote-ref">(1) 
 <p class="fragment">
 <b>Claim:</b> "Raising the minimum wage reduces poverty."  
 <br><b>Evidence:</b> "Studies show higher income levels after wage increases."  
@@ -112,6 +112,14 @@ Notes: fixed prompt means it is hard coded so it yield very similar sentences ev
 No discourse transitions is a drawback of the current product, there is a lack of connection between arguments
 missing argumentative components come from Toulmin models, they missed some
 Human arguments are not strictly hierarchical - they're networkedmin model of Argumentation
+
+<div class="footnotes">
+  <div class="fn-item">
+    <span class="fn-num">1.</span>
+    <span class="fn-text">Toulmin, S. E. (1958). The Uses of Argument. Cambridge, England: Cambridge University Press.</span>
+  </div>
+</div>
+
 ---
 
 ## Technical & Conceptual Limitations
@@ -144,9 +152,9 @@ Human arguments are not strictly hierarchical - they're networkedmin model of Ar
 
 ## Research Questions  
 
-1. How can VISAR support *cohesive discourse* and *logical completeness*?  
-2. How can generated arguments be *factually grounded* and account for bias?  
-3. **Does Gen-AI reduce writers’ creativity, initiative, or sense of control — and how can we design to preserve them?**
+RQ1. How can VISAR support *cohesive discourse* while maintaining *logical coherence* throughout the essay?  
+RQ2. How can generated arguments be *more factually grounded*?  
+RQ3. **Does Gen-AI reduce writers’ creativity, initiative, or sense of control — and how can we design to preserve them?**
 
 ---
 
@@ -184,6 +192,15 @@ To answer RQ1 I aim to:
 <img class="r-stretch" src="rst.png" alt="VISAR interface" width="100%"/>
 </div>
 
+<div class="footnotes">
+  <div class="fn-item">
+    <span class="fn-num">1.</span>
+    <span class="fn-text">Walton, D., & Koszowy, M. (2018). Whately on authority, deference, presumption and burden of proof. Rhetorica: A Journal of the History of Rhetoric, 36(2), 179–206. https://doi.org/10.1525/rh.2018.36.2.179</span>
+    <span class="fn-num">2.</span>
+    <span class="fn-text">Forsbom, E. (2005). Rhetorical structure theory in natural language generation. GSLT: Natural Language Generation Lecture.</span>
+  </div>
+</div>
+
 ---
 
 ## WP2 — Grounding pipeline
@@ -193,6 +210,8 @@ To answer RQ2 I aim to:
 - Add **argument validator** to flag unsupported claims  
 
 **Study B:** use the behaviour trace of Study A and perform automatic audits of factual accuracy and bias awareness compare to a ground-truth dataset with the grounding pipeline 
+
+**Study B alternate:** If more HCI-oriented, we can study the impact of continuously "fact-checking" the text and presenting the results to the users, see how this function will affect user's revision.
 
 ---
 
@@ -226,6 +245,8 @@ To answer RQ3 I aim to:
 </div>
 </div>
 
+Notes: How would you approach this question scientifically ?
+
 ---
 
 <section class="slide--section">
@@ -255,6 +276,9 @@ To answer RQ3 I aim to:
 
 - Theory of **creative agency under AI assistance**  
 - Guidelines for balancing automation with human authorship
+- Turing award
+- Nobel Peace prize
+- Medal of honor
 
 
 ## Practical Impact  
