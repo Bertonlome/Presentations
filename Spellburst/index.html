@@ -79,6 +79,14 @@
       document.body.classList.toggle('show-notes');
     }
     });
+
+    // 'D' to toggle dark mode
+    window.addEventListener('keydown', (e) => {
+    if ((e.key === 'd' || e.key === 'D') && !/input|textarea/i.test(e.target.tagName)) {
+      e.preventDefault();
+      document.body.classList.toggle('dark-mode');
+    }
+    });
   });
   </script>
 </body>

@@ -19,6 +19,17 @@
   --base-font-size: 1.3vw;  /* responsive base font size */
 }
 
+/* Dark mode colors */
+body.dark-mode {
+  --fg: #fff;         /* white text */
+  --bg: #000;         /* black background */
+}
+
+body.dark-mode .reveal {
+  background-color: var(--bg);
+  color: var(--fg);
+}
+
 /* Base typography */
 .reveal {
   font-family: var(--font-main);
@@ -48,6 +59,13 @@
 /* Links: underlined, no color change */
 .reveal a { color: inherit; text-decoration: underline; }
 
+.thumbnail {
+  width: 120px;
+  height: auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  border-radius: 8px;
+  background: #fff;
+}
 /* Title slide helpers */
 .kicker {
   font-family: var(--font-accent);
