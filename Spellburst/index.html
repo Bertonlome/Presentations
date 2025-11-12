@@ -48,19 +48,27 @@
   <script src="../node_modules/reveal.js/dist/reveal.js"></script>
   <script src="../node_modules/reveal.js/plugin/markdown/markdown.js"></script>
   <script src="../node_modules/reveal.js/plugin/notes/notes.js"></script>
+  <script src="../node_modules/reveal.js/plugin/zoom/zoom.js"></script>
 
   <script>
-    // 4:3 for authentic rétroprojecteur (change to 1920x1080 for 16:9)
+    // 4:3 (1024x768) for authentic rétroprojecteur (change to 1920x1080 for 16:9)
     const deck = new Reveal({
       hash: true,
       width: 1600,        // 4:3
       height: 1200,       // 4:3
-      margin: 0.12,
-      controls: false,   // no UI chrome
-      progress: false,
-      transition: 'none',
-      slideNumber: false,
-      plugins: [ RevealMarkdown, RevealNotes ]
+      margin: 0.04,
+      controls: true,   // no UI chrome
+      progress: true,
+      transition: 'slide',  
+      minScale: 0.2,
+      maxScale: 2.0,
+      // If navigationMode: 'grid' you're on slide 1.3 and navigate right, you will normally move
+      // from 1.3 -> 2.1. If "grid" is used, the same navigation takes you
+      // from 1.3 -> 2.3.
+      navigationMode: 'default',
+      slideNumber: true,
+      scrollProgress: true,  // Force the scrollbar to remain visible
+      plugins: [ RevealMarkdown, RevealNotes, RevealZoom ]
     });
     // After init, add custom keybindings
     deck.initialize().then(() => {

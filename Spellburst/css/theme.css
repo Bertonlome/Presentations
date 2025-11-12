@@ -128,13 +128,13 @@ body.dark-mode .reveal {
   flex-direction: column;
   gap: 0.5em;
   flex-shrink: 0;
-  max-width: 45%;
+  max-width: 100%;
 }
 
 .reveal .row-flex .image-stack img {
   max-width: 100%;
   width: 100%;
-  max-height: 8em;  /* Limit each image height */
+  max-height: 20em;  /* Limit each image height */
   height: auto;
   object-fit: contain;  /* Maintain aspect ratio */
 }
@@ -155,7 +155,7 @@ body.dark-mode .reveal {
 /* Footnote container at bottom of slide */
 .reveal .footnotes {
   position: absolute;
-  bottom: calc(var(--grid-b) - 20em);
+  bottom: calc(var(--grid-b) - 10em);
   left: var(--grid-l);
   right: var(--grid-r);
   font-size: 0.5em;

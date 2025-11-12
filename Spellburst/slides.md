@@ -1,9 +1,9 @@
 <div style="display: flex; gap: 1em; filter: grayscale(100%); box-sizing: border-box; max-width: 900px;">
-    <img src="image.png" style="flex: 1 1 0; max-width: 30%; height: auto;">
-    <img src="image-1.png" style="flex: 1 1 0; max-width: 30%; height: auto;">
-    <img src="image-2.png" style="flex: 1 1 0; max-width: 30%; height: auto;">
-    <img src="image-3.png" style="flex: 1 1 0; max-width: 30%; height: auto;">
-    <img src="image-4.png" style="flex: 1 1 0; max-width: 30%; height: auto;">
+    <img src="tyler.png" style="flex: 1 1 0; max-width: 30%; height: auto;">
+    <img src="miroslav.png" style="flex: 1 1 0; max-width: 30%; height: auto;">
+    <img src="jenny.png" style="flex: 1 1 0; max-width: 30%; height: auto;">
+    <img src="christopher.png" style="flex: 1 1 0; max-width: 30%; height: auto;">
+    <img src="ariharan.png" style="flex: 1 1 0; max-width: 30%; height: auto;">
 </div>
 
 <section class="slide--section"> <div class="rule"></div> <h1 class="r-fit-text">Spellburst : Biography of Authors</h1>
@@ -11,57 +11,111 @@
 
 ---
 
-<img src="image.png" class="thumbnail" style="flex: 1; max-width: 30%; height: auto;">
+<section>
+<img src="tyler.png" class="thumbnail" style="flex: 1; max-width: 30%; height: auto;">
 
-Tyler Angert
+<h2>Tyler Angert</h2>
 
-Replit, Inc. → Patina Systems
-
-• Affiliations: Founder & CEO of Patina Systems (2024–Present) – building "spontaneous software" tools for custom everyday apps<sup class="footnote-ref">(1)</sup>. Formerly the first Product Designer at Replit (2019–2024), where he led design of the IDE<sup class="footnote-ref">(2)</sup>. Also collaborated with the MIT Media Lab on Scratch (kids coding platform) as a research prototyper<sup class="footnote-ref">(3)</sup>.
-
-• Education: Ed.M. in Technology, Innovation & Education from Harvard University; B.S. in Mathematics & Computer Science from Emory University<sup class="footnote-ref">(2)</sup>.
-
-• Interests: Passionate about creative tools and user empowerment – interested in self-expression, communication, operating systems, and web browsers<sup class="footnote-ref">(1)</sup>. His work centers on designing interfaces that blur the line between software users and creators.
-
-• Notable Projects: Led the design of Replit's now-legendary online IDE<sup class="footnote-ref">(4)</sup> and co-authored Spellburst (UIST 2023), an LLM-driven creative coding interface that bridges natural language prompts with code for generative art<sup class="footnote-ref">(4)</sup>. He also holds a patent on a "Multiplayer Debugger" for collaborative coding<sup class="footnote-ref">(2)</sup>.
-
-• Online: Personal website tyler.cafe<sup class="footnote-ref">(2)</sup>; active on X (Twitter) as @tylerangert<sup class="footnote-ref">(2)</sup>.
+<div class="fragment row-flex">
+  <div class="text-content">
+    First Author<br>
+    Founder and CEO of Patina Systems (2024–Present) – building "spontaneous software" tools for custom everyday apps<sup class="footnote-ref">(1)</sup>. 
+    <ul>
+      <li>Interested about creative tools and user empowerment<sup class="footnote-ref">(1)</li>
+      <li>His work centers on designing interfaces that blur the line between software users and creators<sup class="footnote-ref">(2)</li>
+      <li>He also holds a patent on a "Multiplayer Debugger" for collaborative coding<sup class="footnote-ref">(1)</li>
+      <li>Online: Personal website tyler.cafe<sup class="footnote-ref">(1)</sup>; active on X (Twitter) as @tylerangert</li>
+    </ul>
+  </div>
+  <div class="image-stack">
+    <img src="patina.png"/>
+  </div>
+</div>
 
 <div class="footnotes">
   <div class="fn-item">
     <span class="fn-num">1.</span>
-    <span class="fn-text">Tyler Angert – The Network profile (Founder at Patina; ex-Replit designer; education). https://www.thenetwork.com/p/483cef13-be5c-46d4-9be8-259d688b4e1e</span>
-  </div>
-  <div class="fn-item">
-    <span class="fn-num">2.</span>
     <span class="fn-text">Tyler Angert – Personal website (tyler.cafe) – "Before" section with career and education. https://tyler.cafe/</span>
   </div>
   <div class="fn-item">
-    <span class="fn-num">3.</span>
+    <span class="fn-num">2.</span>
     <span class="fn-text">Our investment in Patina Systems. https://press.airstreet.com/p/our-investment-in-patina-systems</span>
   </div>
-  <div class="fn-item">
-    <span class="fn-num">4.</span>
-    <span class="fn-text">Jenny Han – Personal website, publications list – Spellburst UIST 2023 reference (co-authors noted as equal first authors). https://jennylihan.com/</span>
-  </div>
+</div>
+</section>
+<section>
+
+First designer at replit (a web-based IDE, 2019-2024)
+
+<img class="r-stretch" src="replit.png">
+
+</section>
+
+<section>
+
+Researched "coder's block" for Sratch at the MIT Media Lab for 3 months in 2019
+
+<img class="r-stretch" src="scratch.png">
+
+<div style="max-width: 1600px; margin: 1em auto;">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4800.849635236761!2d-71.08841438683572!3d42.36068508657747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e370a8b0f310c5%3A0x1a26a6e6bd5f8030!2sMIT%20Media%20Lab!5e1!3m2!1sfr!2sca!4v1762962274821!5m2!1sfr!2sca" width="1600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
----
+</section>
+<section>
 
-<img src="image-1.png" class="thumbnail" style="flex: 1; max-width: 30%; height: auto;">
+Studied learning sciences at Harvard LIT lab (2018-2019). Received Ed.M. in 2019
+
+<img class="r-stretch" src="lit.png">
+
+<div style="max-width: 1600px; margin: 1em auto;">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10170.252974887342!2d-71.12682420428588!3d42.37546455985341!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e37769d1e5853b%3A0x99f678715085d168!2sHarvard%20Graduate%20School%20Of%20Education!5e1!3m2!1sfr!2sca!4v1762963186626!5m2!1sfr!2sca" width="1600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+</section>
+<section>
+
+Studied computer science at Emory (2014-2018). Received B.S. in 2018
+
+<img class="r-stretch" src="emory.png">
+
+<div style="max-width: 1600px; margin: 1em auto;">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8571.172215746132!2d-84.32747037388843!3d33.792370057187235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f506f1ea7c14e7%3A0x5281878c26da7705!2sDepartment%20of%20Mathematics%20and%20Computer%20Science!5e1!3m2!1sfr!2sca!4v1762962562510!5m2!1sfr!2sca" width="1600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+</section>
+<section>
+
+Researched at Georgia Tech (2016-2018)
+
+<img class="r-stretch" src="georgiatech.png">
+
+<div style="max-width: 1600px; margin: 1em auto;">
+  <iframe
+   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5721.5317445872215!2d-84.40053872291335!3d33.77799239647887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88f5048a69a04763%3A0xee74b8c342f891fa!2sCollege%20of%20Computing!5e1!3m2!1sfr!2sca!4v1762961953190!5m2!1sfr!2sca" width="1600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+
+</section>
+
+
+
+---
+<section>
+<img src="miroslav.png" class="thumbnail" style="flex: 0; max-width: 30%; height: auto;">
 
 Miroslav Suzara
 
+Equal first author
 
-Stanford University (PhD Candidate)
+Ph.D. candidate in Learning Sciences and Technology Design (Graduate School of Education) at Stanford University<sup class="footnote-ref">(1)</sup>. (Admitted 2018)
 
-• Affiliation: Ph.D. candidate in Learning Sciences and Technology Design (Graduate School of Education) and M.S. student in Computer Science at Stanford University<sup class="footnote-ref">(1)</sup>. (Admitted 2018; currently in final stages of doctoral program.)
+• Research Interests: Focused on human-AI collaboration in learning contexts<sup class="footnote-ref">(1)</sup>. His work spans educational technology, collaborative learning methods, and human-AI interaction.
 
-• Research Interests: Focused on human-AI collaboration in learning contexts – exploring how AI systems can support and enhance human teamwork, learning, and creativity<sup class="footnote-ref">(1)</sup>. His work spans educational technology, collaborative learning methods, and human-AI interaction.
+• Notable Work: Also co-authored "The GPT Surprise" (2024), a study on offering ChatGPT in a large coding class (finding reduced student engagement but improved exam performance)<sup class="footnote-ref">(2)</sup>.
 
-• Notable Work: Equal first author of Spellburst (UIST 2023). Also co-authored "The GPT Surprise" (2024), a study on offering ChatGPT in a large coding class (finding reduced student engagement but improved exam performance)<sup class="footnote-ref">(2)</sup>.
+• Online Presence: Personal site miroslavsuzara.com<sup class="footnote-ref">(1)</sup>
 
-• Online Presence: Personal site miroslavsuzara.com – shares research projects and publications<sup class="footnote-ref">(1)</sup>. Contributor to open-source on GitHub and active in academic communities (e.g. ACM Learning Sciences).
 
 <div class="footnotes">
   <div class="fn-item">
@@ -73,51 +127,130 @@ Stanford University (PhD Candidate)
     <span class="fn-text">Nie, A. et al. (2024). "The GPT Surprise: Offering Large Language Model Chat in a Massive Coding Class…" (Stanford/OSF preprint) – Study co-authored by M. Suzara. https://scale.stanford.edu/ai/repository/impact-randomized-controlled-trial</span>
   </div>
 </div>
+</section>
+
+<section>
+
+M.S. student in Computer Science at Stanford (during his PhD?)
+
+<img class="r-stretch" src="stanford.png">
+
+<div style="max-width: 1600px; margin: 1em auto;">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d254421.20727568187!2d-122.14764845455838!3d37.487783180125774!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2a678bea9d%3A0x29cdf01a44fc687f!2sUniversit%C3%A9%20Stanford!5e1!3m2!1sfr!2sca!4v1762967549588!5m2!1sfr!2sca" width="1600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</section>
+<section>
+
+M.S. University of Oxford in education (Learning & Technology - 2018)
+
+<img class="r-stretch" src="oxford.png">
+
+<div style="max-width: 1600px; margin: 1em auto;">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4260.853282768848!2d-1.2570928223790032!3d51.75704619243412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4876c6a9ef8c485b%3A0xd2ff1883a001afed!2sUniversit%C3%A9%20d&#39;Oxford!5e1!3m2!1sfr!2sca!4v1762967382729!5m2!1sfr!2sca" width="1600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</section>
+</section>
+<section>
+
+Internships as a UX researcher at META on Facebook and WhatsApp
+
+<img class="r-stretch" src="meta_hq.png">
+
+<div style="max-width: 1600px; margin: 1em auto;">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5462.11958869208!2d-122.15315330517774!3d37.48507715675967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbc96de8dc419%3A0x64979e438bf4e3a5!2sMeta%20Headquarters!5e1!3m2!1sfr!2sca!4v1762967834903!5m2!1sfr!2sca" width="1600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</section>
+<section>
+
+B.B.A. Simon Fraser University (2011)
+
+<img class="r-stretch" src="simonfraser.png">
+
+<div style="max-width: 1600px; margin: 1em auto;">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114096.92777485713!2d-122.93657892600913!3d49.26066036510524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548679c0857a2227%3A0x506c3f6e30b55b!2sUniversit%C3%A9%20Simon%20Fraser!5e1!3m2!1sfr!2sca!4v1762967724912!5m2!1sfr!2sca" width="1600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</section>
 
 ---
 
-<img src="image-2.png" class="thumbnail" style="flex: 1; max-width: 30%; height: auto;">
+<section>
+
+<img src="jenny.png" class="thumbnail" style="flex: 1; max-width: 30%; height: auto;">
 
 Jenny Han
 
+Equal first author
 
+Currently a prompt Engineer at Khan Academy, building and testing AI-powered tools for teachers<sup class="footnote-ref">(1)</sup>
 
-Stanford University → Khan Academy
+Research keywords include computer science education, child-computer interaction, co-design, and generative AI in learning<sup class="footnote-ref">(1)</sup>.
 
-• Experience: Current: Prompt Engineer at Khan Academy, building and testing AI-powered tools for teachers<sup class="footnote-ref">(1)</sup>. Previous: Web Developer at UCI's Design & Partnership Lab, Product Engineering Intern at Replit, Lead Instructional Designer at Next Shift Learning, and a Stanford CS106B course Lecturer<sup class="footnote-ref">(1)</sup>. She was also a Fulbright Research Scholar in 2019, focusing on online learning platforms in rural China<sup class="footnote-ref">(1)</sup>.
+Contributed to StoryCoder (voice-guided app for kids, Best paper award CHI 2021) and other HCI education research<sup class="footnote-ref">(1)</sup>.
 
-• Education: B.S. in Symbolic Systems from Stanford (an interdisciplinary major in CS, linguistics, psychology, and philosophy), and an M.S. in Computer Science (HCI specialization) from Stanford, with a focus on learning technologies<sup class="footnote-ref">(1)</sup>.
-
-• Research & Interests: Combines education and technology ("equal parts ed + tech") to design personally meaningful learning experiences<sup class="footnote-ref">(1)</sup>. Research keywords include computer science education, child-computer interaction, co-design, and generative AI in learning<sup class="footnote-ref">(1)</sup>. She is passionate about creating tools that transform how people learn and teach.
-
-• Notable Projects: Co-first author of Spellburst (LLM-powered creative coding tool for artists, UIST 2023)<sup class="footnote-ref">(1)</sup>. Earlier, contributed to StoryCoder (voice-guided coding for kids, CHI 2021) and other HCI education research (multiple best paper awards)<sup class="footnote-ref">(1)</sup>.
-
-• Online: Personal website jennylihan.com – features her blog, research publications, and design projects<sup class="footnote-ref">(1)</sup>. Also active on LinkedIn and GitHub, and occasionally on X (Twitter) sharing insights on learning design.
+Online: Personal website jennylihan.com<sup class="footnote-ref">(1)</sup>. Also active on LinkedIn and GitHub, and occasionally on X (Twitter) sharing insights on learning design.
 
 <div class="footnotes">
   <div class="fn-item">
     <span class="fn-num">1.</span>
     <span class="fn-text">Jenny Han – Personal website, publications list – Spellburst UIST 2023 reference (co-authors noted as equal first authors). https://jennylihan.com/</span>
 </div>
+</section>
 
+<section>
+<img class="r-stretch" src="khan.png">
+
+Khan Academy is a nonprofit that offers online learning platform.
+
+In 2022 Adobe donated $1M to Khan Academy to integrate their software to "teach creativity"
+</section>
+
+<section>
+
+Previous: Web Developer at UCI's Design & Partnership Lab,
+
+<img class="r-stretch" src="ucidaplab.png">
+
+<div style="max-width: 1600px; margin: 1em auto;">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23594.224519939013!2d-117.84666538953066!3d33.64145090593034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dcde0e2592bf91%3A0x79fbc5d0b6dab7ec!2sUniversit%C3%A9%20de%20Californie%20%C3%A0%20Irvine!5e1!3m2!1sfr!2sca!4v1762981102345!5m2!1sfr!2sca" width="1600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</section>
+
+<section>
+
+Product Engineering Intern at Replit,
+
+<img class="r-stretch" src="replit2.png">
+</section>
+
+<section>
+
+She received a B.S. in Symbolic Systems from Stanford (an interdisciplinary major in CS, linguistics, psychology, and philosophy)
+
+She then received an M.S. in Computer Science (HCI specialization) from Stanford, with a focus on learning technologies<sup class="footnote-ref">(1)</sup>.
+
+<img class="r-stretch" src="stanford2.png">
+
+<div style="max-width: 1600px; margin: 1em auto;">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5466.314382364507!2d-122.17263492277142!3d37.427664232076815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fbb2a678bea9d%3A0x29cdf01a44fc687f!2sUniversit%C3%A9%20Stanford!5e1!3m2!1sfr!2sca!4v1762981462923!5m2!1sfr!2sca" width="1600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+</section>
 
 ---
+<section>
 
-<img src="image-3.png" class="thumbnail" style="flex: 1; max-width: 30%; height: auto;">
+<img src="christopher.png" class="thumbnail" style="flex: 1; max-width: 30%; height: auto;">
 
 Christopher Pondoc
 
-Stanford University (BS & MS '24)
+Second author
 
-• Education: Recently graduated from Stanford University with a B.S. and M.S. in Computer Science (completed coterminally in 2024)<sup class="footnote-ref">(3)</sup>. Academic interests centered on artificial intelligence and human-computer interaction.
+Stanford University (BS '24 & MS '25 what is co-terminal ??)<sup class="footnote-ref">(1)</sup>
 
-• Industry Experience: During his studies, he interned as a software engineer at Splunk and Coinbase, working on large-scale software systems<sup class="footnote-ref">(1)</sup>. He also conducted machine learning research (including projects with Stanford AI Lab and HCI Group) and earned awards for course projects in AI<sup class="footnote-ref">(1)</sup><sup class="footnote-ref">(1)</sup>.
+Academic interests centered on artificial intelligence and human-computer interaction.<sup class="footnote-ref">(3)</sup>
 
-• Research & Projects: Co-author of Spellburst (UIST 2023). His research work spans information retrieval and ML; for example, he worked on "Bridging the Gulf of Envisioning", examining cognitive challenges in prompt-based AI interactions<sup class="footnote-ref">(1)</sup>.
+Christopher's research work spans information retrieval and Machine Learning<sup class="footnote-ref">(2)</sup>. He has contributed to the paper titled "Bridging the Gulf of Envisioning: Cognitive Challenges in Prompt Based Interactions with LLMs presented at CHI'24
 
-• Entrepreneurship: Founded a startup called Vita EDO (2018–2020), where he served as CEO building an educational technology platform<sup class="footnote-ref">(1)</sup>. He has remained active in the tech startup scene at Stanford (e.g. programs with venture funds and incubators)<sup class="footnote-ref">(27)</sup>.
-
-• Online: Personal website cpondoc.com – highlights his writings and projects<sup class="footnote-ref">(1)</sup>. Also reachable via GitHub and LinkedIn (where he was noted as a "multifaceted" software engineer with diverse interests in ML and innovation<sup class="footnote-ref">(1)</sup><sup class="footnote-ref">(29)</sup>).
+Online: Personal website cpondoc.com <sup class="footnote-ref">(1)</sup>, very active on GitHub and he has a Clay.earth profile (do you know Clay.earth?)<sup class="footnote-ref">(2)</sup>
 
 <div class="footnotes">
   <div class="fn-item">
@@ -134,23 +267,47 @@ Stanford University (BS & MS '24)
   </div>
 </div>
 
+</section>
+
+<section>
+
+Christopher interned as a software engineer at Tellor, Splunk, and Coinbase, working on transparent and permissionless oracle protocol for smart contracts on platforms like Ethereum, Polygon, and Algorand (i.e. blockchain/crypto stuff).
+
+<div class="row-flex">
+  <img src="tellor.png" style="width: 20%">
+  <img src="splunk.png" style="width: 20%">
+  <img src="coinbase.png" style="width: 20%">
+</div>
+
+</section>
+
+<section>
+
+Entrepreneurship: Founded a startup called Vita EDO (2018–2020), where he served as CEO building an educational technology platform.
+
+<img class="r-stretch" src="vita.png">
+
+</section>
+
 ---
 
-<img src="image-4.png" class="thumbnail" style="flex: 1; max-width: 30%; height: auto;">
+<section>
+
+<img src="ariharan.png" class="thumbnail" style="flex: 1; max-width: 30%; height: auto;">
 
 Hariharan Subramonyam
 
-Stanford University (Assistant Professor)
+Senior author
 
-• Position: Assistant Professor (Research) at Stanford's Graduate School of Education, with a courtesy appointment in Computer Science<sup class="footnote-ref">(1)</sup>. He is also a Ram and Vijay Shriram Faculty Fellow at Stanford's Human-Centered AI Institute (HAI) and a core faculty member of the Stanford HCI group<sup class="footnote-ref">(1)</sup>. (He joined Stanford after completing his PhD in 2020.)
+Assistant Professor at Stanford University at Stanford's Graduate School of Education, with a courtesy appointment in Computer Science<sup class="footnote-ref">(1)</sup>
 
-• Background: Ph.D. in Information Science from the University of Michigan, where he was advised by Prof. Eytan Adar<sup class="footnote-ref">(1)</sup>. His academic training combines HCI, learning sciences, and data science.
+He is also a Ram and Vijay Shriram Faculty Fellow at Stanford's Human-Centered AI Institute (HAI) and a core faculty member of the Stanford HCI group<sup class="footnote-ref">(1)</sup>
 
-• Research Focus: Sits at the intersection of Human-Computer Interaction and Learning Sciences<sup class="footnote-ref">(1)</sup>. His work seeks to augment human learning with AI by using cognitively-informed design, co-designing with educators/learners, and creating transformative AI-driven learning experiences<sup class="footnote-ref">(1)</sup>. He emphasizes ethical, human-centered design in AI tools for education.
+He joined Stanford after completing his PhD in 2020.
 
-• Notable Contributions: Principal investigator of projects on AI in education and creativity. Senior author of Spellburst (UIST 2023). His research has earned awards (e.g. Best Paper at CHI 2025) and featured in an ACM Interactions cover story on UX in responsible AI<sup class="footnote-ref">(1)</sup>.
+His research is mainly in HCI and AI in education, (4 paper at CHI'25, one honorable mention, one best paper)<sup class="footnote-ref">(1)</sup>.
 
-• Online: Personal website haridecoded.com – includes his publications, news (e.g. awards and grants), and writings on human-AI interaction<sup class="footnote-ref">(1)</sup>. Active on X (Twitter) as @HariSubramonyam and Google Scholar for research updates.
+Online: Personal website haridecoded.com <sup class="footnote-ref">(1)</sup>. Active on X (Twitter) as @HariSubramonyam
 
 <div class="footnotes">
   <div class="fn-item">
@@ -159,3 +316,27 @@ Stanford University (Assistant Professor)
   </div>
 </div>
 
+</section>
+
+<section>
+
+Background: Ph.D. in Information Science from the University of Michigan, where he was advised by Prof. Eytan Adar<sup class="footnote-ref">(1)</sup>. His academic training combines HCI, learning sciences, and data science.
+
+<img class="r-stretch" src="michigan.png">
+
+<div style="max-width: 1600px; margin: 1em auto;">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5093.079831877715!2d-83.74078202265228!3d42.277148940333845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883cae38e7de1701%3A0x5ba14e5178e997e3!2sUniversit%C3%A9%20du%20Michigan!5e1!3m2!1sfr!2sca!4v1762984241465!5m2!1sfr!2sca" width="1600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+</section>
+
+---
+
+<section>
+<div style="max-width: 1600px; margin: 1em auto;">
+<iframe src="https://www.google.com/maps/d/embed?mid=1cWwvDFQTvM32Lkbhm1rhCkI9zt4twTI&ehbc=2E312F" width="1600" height="900" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+Notes: Chris and Hariharan share two papers, the other just one
+
+</section>
