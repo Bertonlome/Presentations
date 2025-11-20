@@ -14,12 +14,12 @@ ROOT="$(cd "$(dirname "$0")" && pwd)"
 if [[ -d "$ROOT/template" ]]; then
   SRC="$ROOT/template"
 else
-  # fallback: use Visar as a skeleton
-  SRC="$ROOT/Visar"
+  # fallback: use Spellburst as a skeleton
+  SRC="$ROOT/Spellburst"
 fi
 
 if [[ ! -d "$SRC" ]]; then
-  echo "Template source not found. Create '$ROOT/template' or keep '$ROOT/Visar' as a skeleton."
+  echo "Template source not found. Create '$ROOT/template' or keep '$ROOT/Spellburst' as a skeleton."
   exit 1
 fi
 

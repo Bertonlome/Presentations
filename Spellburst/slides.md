@@ -21,7 +21,6 @@
     First Author<br>
     Founder and CEO of Patina Systems (2024–Present) – building "spontaneous software" tools for custom everyday apps<sup class="footnote-ref">(1)</sup>. 
     <ul>
-      <li>Interested about creative tools and user empowerment<sup class="footnote-ref">(1)</li>
       <li>His work centers on designing interfaces that blur the line between software users and creators<sup class="footnote-ref">(2)</li>
       <li>He also holds a patent on a "Multiplayer Debugger" for collaborative coding<sup class="footnote-ref">(1)</li>
       <li>Online: Personal website tyler.cafe<sup class="footnote-ref">(1)</sup>; active on X (Twitter) as @tylerangert</li>
@@ -53,7 +52,7 @@ First designer at replit (a web-based IDE, 2019-2024)
 
 <section>
 
-Researched "coder's block" for Sratch at the MIT Media Lab for 3 months in 2019
+Researched "coder's block" for <a href="https://scratch.mit.edu/projects/editor/?tutorial=getStarted">Sratch</a> at the MIT Media Lab for 3 months in 2019
 
 <img class="r-stretch" src="scratch.png">
 
@@ -110,7 +109,7 @@ Equal first author
 
 Ph.D. candidate in Learning Sciences and Technology Design (Graduate School of Education) at Stanford University<sup class="footnote-ref">(1)</sup>. (Admitted 2018)
 
-• Research Interests: Focused on human-AI collaboration in learning contexts<sup class="footnote-ref">(1)</sup>. His work spans educational technology, collaborative learning methods, and human-AI interaction.
+• Research Interests: Focused on human-AI collaboration in learning contexts<sup class="footnote-ref">(1)</sup>
 
 • Notable Work: Also co-authored "The GPT Surprise" (2024), a study on offering ChatGPT in a large coding class (finding reduced student engagement but improved exam performance)<sup class="footnote-ref">(2)</sup>.
 
