@@ -5,7 +5,7 @@
   <div class="text-content">
 <h1 class="r-fit-text">FusAIn – Composing Generative AI Visual Prompts Using
 Pen-based Interaction</h1>
-<p><em>Role: Historian • How fashion designers see GenAI tools • What came before FusAIn</em></p>
+<p><em>How fashion designers see GenAI tools • What came before FusAIn</em></p>
   </div>
 
 <img class="r-stretch" src="tradi_vs_ai_collage.png" >
@@ -20,9 +20,8 @@ Pen-based Interaction</h1>
 <h2>How does a fashion curator read FusAIn?</h2>
 
 <div class="row-flex">
-<img src="louise.jpg" class="thumbnail" style="flex: 1; max-width: 30%; height: auto;">
   <div class="text-content">
-    <strong>Louise – Fashion Curator & Brand Strategy Consultant</strong><br><br>
+    <strong>Louise Lillo – Fashion Curator & Brand Strategy Consultant - Curated by Amaria</strong><br><br>
     After reading the FusAIn paper, she remains globally sceptical about AI in fashion creation, but:<br>
     <ul>
       <li>She sees FusAIn as closer to <strong>craft + technology</strong> than to "AI magic".</li>
@@ -49,8 +48,6 @@ Pen-based Interaction</h1>
 
 <section>
 
-<img src="louise.jpg" class="thumbnail" style="flex: 1; max-width: 30%; height: auto;">
-
 <h2>What Louise like (and fear) in generative AI</h2>
 
 <div class="row-flex">
@@ -68,6 +65,9 @@ Pen-based Interaction</h1>
 </div>
 
 </section>
+
+---
+
 <section>
 
 <div class="row-flex" style="margin-top: 1em;">
@@ -92,6 +92,9 @@ Pen-based Interaction</h1>
 </div>
 
 </section>
+
+---
+
 <section>
 <img class="r-stretch" src="viral_quote.png" >
 </section>
@@ -123,7 +126,7 @@ Pen-based Interaction</h1>
 
 </section>
 
-
+---
 
 <section>
 
@@ -141,6 +144,7 @@ Pen-based Interaction</h1>
 
 </section>
 
+---
 
 <section>
 
@@ -158,6 +162,7 @@ Pen-based Interaction</h1>
 
 </section>
 
+---
 
 <section>
 
@@ -174,6 +179,8 @@ Pen-based Interaction</h1>
 </div>
 
 </section>
+
+---
 
 <section>
 
@@ -218,6 +225,8 @@ Pen-based Interaction</h1>
 
 </section>
 
+---
+
 <section>
 
 
@@ -235,6 +244,8 @@ Pen-based Interaction</h1>
 
 </section>
 
+---
+
 <section>
 
 
@@ -251,6 +262,8 @@ Pen-based Interaction</h1>
 </div>
 
 </section>
+
+---
 
 <section>
 
@@ -294,9 +307,12 @@ Pen-based Interaction</h1>
 
 </section>
 
+---
+
 <section>
 
 <img class="r-stretch" src="computational_couture.png" alt="Placeholder – parametric design graph and shoe model">
+
 ---
 
 <section class="slide--section"> 
@@ -320,6 +336,8 @@ Pen-based Interaction</h1>
 
 </section>
 
+---
+
 <section>
   <h2>AI in her FW23 Campaign</h2>
   <div class="row-flex"> 
@@ -332,9 +350,13 @@ Pen-based Interaction</h1>
   </div>
 </section>
 
+---
+
 <section>
     <img class="r-stretch" src="iris1.jpeg" alt="Placeholder – Iris van Herpen material experiment image"> </div>
 </section>
+
+---
 
 <section>
 
