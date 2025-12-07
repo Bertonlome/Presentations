@@ -36,6 +36,8 @@
 <p><em>I will act both as the PILOT and the FACILITATOR</em></p>
 </section>
 
+---
+
 <section>
 <h2>What to Watch</h2>
 <div class="row-flex">
@@ -59,6 +61,8 @@
   <p><em>How it relates to Interdependence Analysis ?</em></p>
 </section>
 
+---
+
 <section>
 <h2>TARS Functions</h2>
 <div class="row-flex">
@@ -73,6 +77,8 @@
 </div>
 </section>
 
+---
+
 <section>
 <h2>TARS Autonomy</h2>
 <div>
@@ -81,6 +87,8 @@
 <img src="images/autonomy_example_3.png" width=80%>
 </div>
 </section>
+---
+
 <section>
 <h2>TARS Autonomy</h2>
 <div>
@@ -88,12 +96,16 @@
 </div>
 </section>
 
+---
+
 <section>
 <h2>TARS Interdependence</h2>
 <img src="images/tars_interdependence_example.png" width=100%>
 <img src="images/tars_interdependence_example_2.png" width=60%>
 <img src="images/tars_interdependence_example_3.png" width=60%>
 </section>
+
+---
 
 <section>
 <h2>TARS Interdependence</h2>
@@ -108,6 +120,8 @@
   <p><em>And how it relates to Interdependence Analysis</em></p>
 </section>
 
+---
+
 <section>
   <h2>Interface anatomy</h2>
   <div class="r-stack">
@@ -115,6 +129,8 @@
   <img class="r-stretch fragment" src="images/tars_gui_anatomy_detailed.png">
   </div>
 </section>
+
+---
 
 <section>
 <h2>How does Obervability, Predictability and Directability requirements are generally embodied in the shared interface</h2>
@@ -140,6 +156,8 @@
   <h1 class="r-fit-text">Winter Experiments</h1>
 </section>
 
+---
+
 <section>
 <h2>Study Design</h2>
 <div>
@@ -156,6 +174,8 @@
   </div>
 </div>
 </section>
+
+---
 
 <section>
 <h2>Model Validation</h2>
