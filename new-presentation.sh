@@ -15,11 +15,11 @@ if [[ -d "$ROOT/template" ]]; then
   SRC="$ROOT/template"
 else
   # fallback: use FusAIn as a skeleton
-  SRC="$ROOT/FusAIn"
+  SRC="$ROOT/FusAIn_to_copy"
 fi
 
 if [[ ! -d "$SRC" ]]; then
-  echo "Template source not found. Create '$ROOT/template' or keep '$ROOT/FusAIn' as a skeleton."
+  echo "Template source not found. Create '$ROOT/template' or keep '$ROOT/FusAIn_to_copy' as a skeleton."
   exit 1
 fi
 

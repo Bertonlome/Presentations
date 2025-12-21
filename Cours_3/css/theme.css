@@ -1,0 +1,265 @@
+/* ===============================
+   Xerox PARC–style minimal theme
+   Profile: B2 (textual + punchy)
+   =============================== */
+
+:root{
+  --font-main: "OCR B", "OCR-B", "OCRB", "IBM Plex Mono", ui-monospace, monospace;
+  --font-accent: "OCR A", "OCR-A", ui-monospace, monospace;
+  --fg: #000;         /* strict black */
+  --bg: #fff;         /* strict white */
+  --grid-l: 4vw;      /* responsive left margin based on viewport width */
+  --grid-r: 4vw;      /* responsive right margin */
+  --grid-t: 3vh;      /* responsive top margin based on viewport height */
+  --grid-b: 1vh;      /* responsive bottom margin */
+  --tracking: 0.0em;      /* subtle letter-spacing for 1970s feel */
+  --tracking-tight: 0.01em; /* headings: slightly tighter */
+  --lh: 1.18;               /* body line-height */
+  --lh-tight: 1.18;         /* headings line-height */
+  --base-font-size: 1.3vw;  /* responsive base font size */
+}
+
+/* Dark mode colors */
+body.dark-mode {
+  --fg: #fff;         /* white text */
+  --bg: #000;         /* black background */
+}
+
+body.dark-mode .reveal {
+  background-color: var(--bg);
+  color: var(--fg);
+}
+
+/* Base typography */
+.reveal {
+  font-family: var(--font-main);
+  font-size: var(--base-font-size);  /* responsive font size */
+  letter-spacing: var(--tracking);
+  line-height: var(--lh);
+}
+
+.reveal .slides { text-align: left; }
+
+/* Headings: bold but not flamboyant */
+.reveal h1, .reveal h2, .reveal h3 {
+  font-weight: 700;
+  letter-spacing: var(--tracking-tight);
+  line-height: var(--lh-tight);
+  margin: 0 0 0.5em 0;
+} 
+.reveal h1 { font-size: 2.5em; } */
+.reveal h2 { font-size: 1.5em; } */
+.reveal h3 { font-size: 1.4em; } */
+
+/* Paragraph rhythm for B2 (textual, punchy) */
+/* .reveal p { margin: 0 0 0.75em 0; } */
+.reveal ul, .reveal ol { text-align: left ; margin: 0.2em 0 0.8em 1.1em; }
+.reveal ul li, .reveal ol li { margin: 1em 0;}
+
+/* Links: underlined, no color change */
+.reveal a { color: inherit; text-decoration: underline; }
+
+.thumbnail {
+  width: 120px;
+  height: auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  border-radius: 8px;
+  background: #fff;
+}
+/* Title slide helpers */
+.kicker {
+  font-family: var(--font-accent);
+  font-size: 0.7em;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  margin-bottom: 0.4em;
+}
+
+.title-underline {
+  border-bottom: 2px solid var(--fg);
+  padding-bottom: 0.35em;
+  display: inline-block;
+  margin-bottom: 0.6em;
+}
+
+/* Section divider slide */
+.slide--section h1 {
+  font-family: var(--font-accent);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-top: 0.2em;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  hyphens: auto;
+  max-width: 100%;
+}
+.rule {
+  height: 2px; background: var(--fg);
+  width: 75%; max-width: 900px; margin: 0.6em 0 0.2em 0;
+}
+
+/* Two-column helper for compact textual slides */
+/* .columns { display: grid; grid-template-columns: 1fr 1fr; gap: 1.2em; }
+.columns .col { min-width: 0; } */
+
+/* Row layout for text + image side by side */
+.reveal .row-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 2em;
+  justify-content: space-around;
+}
+
+.reveal .row-flex .text-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.reveal .row-flex img {
+  flex-shrink: 0;
+  width: auto;
+  max-width: 35%;
+  height: auto;
+}
+
+/* Container for stacked images (vertical layout) */
+.reveal .row-flex .image-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+
+.reveal .row-flex .image-stack img {
+  max-width: 100%;
+  width: 100%;
+  max-height: 20em;  /* Limit each image height */
+  height: auto;
+  object-fit: contain;  /* Maintain aspect ratio */
+}
+
+/* ===============================
+   FOOTNOTE SYSTEM
+   =============================== */
+
+/* Superscript footnote markers in text */
+.reveal sup.footnote-ref {
+  font-size: 0.65em;
+  vertical-align: super;
+  line-height: 0;
+  font-weight: 700;
+  margin-left: 0.1em;
+}
+
+/* Footnote container at bottom of slide */
+.reveal .footnotes {
+  position: absolute;
+  bottom: calc(var(--grid-b) - 10em);
+  left: var(--grid-l);
+  right: var(--grid-r);
+  font-size: 0.5em;
+  line-height: 1.3;
+  opacity: 0.85;
+  border-top: 1px solid var(--fg);
+  padding-top: 0.5em;
+  margin-top: 2em;
+}
+
+.reveal .footnotes p {
+  margin: 0.3em 0;
+}
+
+/* Individual footnote items */
+.reveal .footnotes .fn-item {
+  display: flex;
+  margin: 0.25em 5.0em;
+}
+
+.reveal .footnotes .fn-num {
+  font-weight: 700;
+  min-width: 1.5em;
+  flex-shrink: 0;
+}
+
+.reveal .footnotes .fn-text {
+  flex: 1;
+}
+
+/* Legacy fallback for single .footnote class */
+.footnote {
+  font-size: 0.6em; line-height: 1.25; opacity: 0.9;
+  margin-top: 0.9em;
+}
+
+/* Quotes (punchy pull-quotes) */
+.blockquote {
+  margin: 0.2em 0 0.6em 0;
+  padding-left: 0.7em;
+  border-left: 3px solid var(--fg);
+  font-style: normal;
+}
+
+/* Presenter inline cue-card notes (toggle via JS if you kept that flow) */
+body.show-notes .reveal aside.notes {
+  display: block !important;
+  position: fixed; left: 0; right: 0; bottom: 0;
+  margin: 0; padding: 0.6em 1em;
+  border-top: 2px solid var(--fg);
+  background: var(--bg); color: var(--fg);
+  font-size: 0.6em; line-height: 1.3; letter-spacing: 0.02em;
+  max-height: 35vh; overflow: auto; z-index: 9999;
+}
+.reveal aside.notes { display: none; }
+
+/* Responsive design for different screen sizes */
+/* Large screens (desktop) */
+/* @media (min-width: 1200px) {
+  :root {
+    --base-font-size: 2.2vw;
+    --grid-l: 3.5vw;
+    --grid-r: 3.5vw;
+    --grid-t: 2.5vh;
+    --grid-b: 2.5vh;
+  }
+} */
+
+/* /* Medium screens (tablets, small laptops) 
+@media (max-width: 1199px) and (min-width: 768px) {
+  :root {
+    --base-font-size: 3vw;
+    --grid-l: 4vw;
+    --grid-r: 4vw;
+    --grid-t: 3vh;
+    --grid-b: 3vh;
+  }
+}
+
+/* Small screens (phones, small tablets) 
+@media (max-width: 767px) {
+  :root {
+    --base-font-size: 4vw;
+    --grid-l: 5vw;
+    --grid-r: 5vw;
+    --grid-t: 4vh;
+    --grid-b: 4vh;
+  }
+  
+  /* Adjust columns for small screens 
+  .columns { 
+    grid-template-columns: 1fr; 
+    gap: 0.8em; 
+  }
+}
+
+/* Very small screens 
+@media (max-width: 480px) {
+  :root {
+    --base-font-size: 5vw;
+    --grid-l: 6vw;
+    --grid-r: 6vw;
+    --grid-t: 5vh;
+    --grid-b: 5vh;
+  }
+}
+/* End of theme.css */
