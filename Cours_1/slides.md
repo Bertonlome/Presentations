@@ -1,225 +1,284 @@
-# 1
+<section class="slide--section">
 
-## Introduction
-### Benjamin Berton
-<div class="photo-dump">
+<div class="rule"></div>
+<div class="row-flex">
+  <div class="text-content">
+<h1 class="r-fit-text">Introduction</h1>
+<p><em>IND8412A - Expérience utilisateur pour le Web</em></p>
+</div>
 
-![Picture 3](images/slide-001-picture-3.png)
+<img class="footer-image" src="images/slide-001-picture-3.png" >
+
+</section>
+
+---
+
+<ol class="toc">
+  <li>Présentation et logistique</li>
+  <li>Histoire du Web</li>
+  <li>éléments du cours</li>
 </div>
 
 ---
 
-<!-- .slide: class="toc" -->
-## Point sur le Lab
-| | |
-|---:|---|
-| 01 | Présentations |
-| 02 | Plan de cours |
-| 03 | L’histoire du Web |
-| 04 | Rappel de notion élémentaires de l’ergonomie |
-| 05 | Utilisation au Québec et dans le monde |
-| 06 |  |
+<section>
+
+<h2>Qui suis-je ?</h2>
+
+<div class="row-flex">
+  <div class="text-content">
+    <ul>
+      <li>Ingénieur</li>
+      <li>Ergonome</li>
+      <li>Doctorant en Facteurs Humains en aviation, ma spécialité est la modélisation cognitive</li>
+    </ul>
+  </div>
+</div>
+
+</section>
 
 ---
 
-## Présentations
-<div class="cols">
-<div class="col text">
+<section>
+
+<h2>Qui êtes-vous ?</h2>
+
+<div class="row-flex">
+  <div class="text-content">
+    <ul>
+      <li>A quel programme êtes-vous inscrit?</li>
+      <li>Quel est votre projet professionnel ?</li>
+      <li>Pourquoi vous êtes-vous inscrit à ce cours ?</li>
+      <li>Que connaissez vous de l'UX ?</li>
+    </ul>
+  </div>
 </div>
-<div class="col media">
-</div>
-</div>
+
+</section>
 
 ---
 
-## Qui suis-je ?
-<div class="cols">
-<div class="col text">
-Formation et expérience professionnelle
-Diplôme d’ingénieur spécialisé en Conception Numérique et Innovation – ESTIA, France
-Maitrise en Ergonomie et ingénierie des facteurs humains – Université Paris Cité, France
-1 an d’expérience en développement logiciel (Web, mobile, systèmes embarqués)
-1 an d’expérience en tant qu’ergonome / investigateur UX sur un projet de simulateur pour les forces armées – MBDA, France
-1 an d’expérience d’assistant de recherche Facteurs Humains sur les effets physiologiques et cognitifs de la Réalité Augmentée pour les pilotes d’aviation commercial – ESTIA/Airbus, France
-</div>
-<div class="col media">
-
-![Google Shape;387;p32](images/slide-004-google-shape-387-p32.png)
-</div>
-</div>
+<section class="slide--section">
+  <div class="rule"></div>
+  <h1>Plan de cours</h1>
+  <h2 class="r-fit-text">Google doc disponible sur Moodle</h2>
+</section>
 
 ---
 
-## Qui suis-je ?
-<div class="cols">
-<div class="col text">
-- Mes recherches et mon expérience d’enseignement
-- Etudiant au doctorat en Facteurs Humains en aéronautique sous la direction du professeur Philippe Doyon-Poulin
-- Je travaille sur la collaboration Humain – Intelligence Artificielle au sein d’un équipage d’avion
-- J’ai enseigné le prototypage UX et la conduite d’entretien à des élèves en génie en France
-- C’est la deuxième fois que j’enseigne ce cours, je suis jeune et débutant et compte sur vous pour me donner des retours constructifs afin que je m’améliore 
-</div>
-<div class="col media">
+<section>
 
-![Google Shape;387;p32](images/slide-005-google-shape-387-p32.png)
-</div>
-</div>
+<h2>Plan de cours</h2>
 
----
+  <div class="text-content">
+      <ol>
+      <li>Introduction et histoire du Web</li>
+      <li>Conception centrée sur l'utilisateur</li>
+      <li>Les acteurs du processus</li>
+      <li>Analyse des besoins et outils de recherche</li>
+      <li>Conception de site web</li>
+      <li>Architecture d'information</li>
+      <li>Théorie de la persuasion</li>
+      <li>Prototypage de sites Web</li>
+      <li>Design inclusif</li>
+      <li>Rédaction pour le web</li>
+      </ol>
+  </div>
 
-## Qui êtes-vous ?
-<div class="cols">
-<div class="col text">
-- A quel programme êtes-vous inscrit?
-- Quel est votre projet professionnel ?
-- Pourquoi vous êtes-vous inscrit à ce cours ?
-- Que connaissez vous de l’UX ?
-</div>
-<div class="col media">
-</div>
-</div>
+</section>
 
 ---
 
-<!-- .slide: class="toc" -->
-## 13 cours, 4 TP 1 oral
+  <h1>Objectifs du cours</h1>
+
+  <div class="text-coontent">
+  <ul class="fragment">
+  <li><h2>Comprendre les notions</h2></li>
+  <li><h2>Choisir et utiliser les méthodologies</h2></li>
+  <li><h2>Développer des interfaces</h2></li>
+  </ul>
+  </div>
 
 ---
 
-<!-- .slide: class="toc" -->
-## Plan de cours
-| | |
-|---:|---|
-| Introduction et histoire du Web | Comprendre les notions |
-| Conception centrée sur l’utilisateur | Choisir et utiliser les méthodologies |
-| Les acteurs du processus | Développer des interfaces |
-| Analyse des besoins et outils de recherche |  |
-| Conception de site web |  |
-| Architecture d’information |  |
-| Théorie de la persuasion |  |
-| Prototypage de sites Web |  |
-| Design inclusif |  |
-| Rédaction pour le web |  |
+<section>
 
----
+<h2>Plan de cours</h2>
 
-<!-- .slide: class="toc" -->
-## Plan de cours
-| TP | Titre | Type | Date de remise |
-| --- | --- | --- | --- |
-| TP1 10% | Comprendre et spécifier le contexte d’utilisation | Groupe projet | 30 janvier 2025 |
-| TP2 20% | Évaluation heuristique | Individuel | 13 février 2025 |
-| TP3 20% | Entretien utilisateur et tri de cartes | Groupe projet | 27 février 2025 |
-| TP4 20% | Création de prototypes pour la refonte | Groupe projet | 13 mars 2025 |
-| Oral 10% | Présentation orale du projet | Individuel | 17-28 mars |
-| TP5 20% | Test d’usage et synthèse finale | Groupe projet | 3 avril 2025 |
-- Comprendre les notions
-- Choisir et utiliser les méthodologies
-- Développer des interfaces
-![Google Shape;601;p38](images/slide-009-google-shape-601-p38.jpg)
-
----
-
-## Calendrier de cours
-| Jan |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- |
-| L | M | M | J | V | S | D |
-|  |  | 1 | 2 | 3 | 4 | 5 |
-| 6 | 7 | 8 | 9 | 10 | 11 | 12 |
-| 13 | 14 | 15 | 16 | 17 | 18 | 19 |
-| 20 | 21 | 22 | 23 | 24 | 25 | 26 |
-| 27 | 28 | 29 | 30 | 31 |  |  |
-| FEV |  |  |  |  |  |  |
-| L | M | M | J | V | S | D |
-|  |  |  |  |  | 1 | 2 |
-| 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-| 10 | 11 | 12 | 13 | 14 | 15 | 16 |
-| 17 | 18 | 19 | 20 | 21 | 22 | 23 |
-| 24 | 25 | 26 | 27 | 28 |  |  |
-| MAR |  |  |  |  |  |  |
-| L | M | M | J | V | S | D |
-|  |  |  |  |  | 1 | 2 |
-| 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-| 10 | 11 | 12 | 13 | 14 | 15 | 16 |
-| 17 | 18 | 19 | 20 | 21 | 22 | 23 |
-| 24 | 25 | 26 | 27 | 28 | 29 | 30 |
-| AVR |  |  |  |  |  |  |
-| L | M | M | J | V | S | D |
-| 31 | 1 | 2 | 3 | 4 | 5 | 6 |
-| 7 | 8 | 9 | 10 | 11 | 12 | 13 |
-| 14 | 15 | 16 | 17 | 18 | 19 | 20 |
-| 21 | 22 | 23 | 24 | 25 | 26 | 27 |
-| 28 | 29 | 30 |  |  |  |  |
-| 1 | Pas de cours |
-| --- | --- |
-| 2 | Cours |
-|  | Début/fin de session |
-|  | Rendu TP |
-|  | Période d’entretien individuel |
-|  | Semaine de relâche |
-
----
-
-## L’histoire du Web
-<div class="photo-dump">
-
-![Picture Placeholder 3](images/slide-011-picture-placeholder-3.png)
+<div class="row-flex">
+  <div class="text-content">
+    <table>
+      <tr>
+        <th>Travail</th>
+        <th>Pondération</th>
+        <th>Titre</th>
+        <th>Type</th>
+        <th>Date de remise</th>
+      </tr>
+      <tr>
+        <td>Rapport 1</td>
+        <td>10%</td>
+        <td>Analyse du besoin</td>
+        <td>Groupe projet</td>
+        <td>5 février 2026</td>
+      </tr>
+      <tr>
+        <td>Rapport 2</td>
+        <td>25%</td>
+        <td>Évaluation heuristique</td>
+        <td>Individuel</td>
+        <td>19 février 2026</td>
+      </tr>
+      <tr>
+        <td>Rapport 3</td>
+        <td>15%</td>
+        <td>Définition des exigences</td>
+        <td>Groupe projet</td>
+        <td>12 mars 2026</td>
+      </tr>
+      <tr>
+        <td>Rapport 4</td>
+        <td>10%</td>
+        <td>Maquettage et prototypage</td>
+        <td>Groupe projet</td>
+        <td>2 avril 2026</td>
+      </tr>
+      <tr>
+        <td>Rapport 5</td>
+        <td>15%</td>
+        <td>Test d'usage et synthèse finale</td>
+        <td>Groupe projet</td>
+        <td>7 mai 2026</td>
+      </tr>
+      <tr>
+        <td>Oral</td>
+        <td>25%</td>
+        <td>Présentation orale du projet</td>
+        <td>Individuel</td>
+        <td>Au choix</td>
+      </tr>
+    </table>
+  </div>
 </div>
 
-Note:
-Le Web est ainsi une des sphères d'Internet, Internet étant un réseau plus large regroupant différentes sphères (Web, courriel, FTP, etc.).
+</section>
 
 ---
 
-<div class="photo-dump">
+<section class="slide--section">
+  <div class="rule"></div>
+  <h1 class="r-fit-text">L'histoire du Web</h1>
+  <p><em>Des origines à nos jours</em></p>
+  <img class="r-stretch" src="images/slide-011-picture-placeholder-3.png">
 
-![Picture 30](images/slide-012-picture-30.png)
-![Picture 32](images/slide-012-picture-32.png)
-![Picture 22](images/slide-012-picture-22.jpg)
-![Picture 20](images/slide-012-picture-20.jpg)
-![Picture 28](images/slide-012-picture-28.jpg)
-![Picture 26](images/slide-012-picture-26.png)
-![Picture 24](images/slide-012-picture-24.png)
+  <aside class="notes">
+  Le Web est ainsi une des sphères d'Internet, Internet étant un réseau plus large regroupant différentes sphères (Web, courriel, FTP, etc.).
+  </aside>
+</section>
+---
+
+<section data-auto-animate>
+
+<div class="image-grid-3col">
+  <a href="https://www.youtube.com/watch?v=1_zZzGCG2Y8"><img src="images/slide-012-picture-30.png" alt="Web history 1"></a>
+  <a href="https://web.archive.org/web/20000510063927/http://sixdegrees.com/"><img src="images/slide-012-picture-32.png" alt="Web history 2"></a>
+  <img src="images/pizza-hut.png" alt="Web history 3">
+  <img src="images/slide-012-picture-28.jpg" alt="Web history 5">
+  <img src="images/slide-012-picture-24.png" alt="Web history 7">
+  <img src="images/arpanet-map.png" alt="Web history 7">
 </div>
+<aside class="notes">
+Orkut a été lancé en 2004 avant Facebook par l'ingénieur turque Orkut Büyükkökten
+1961 : Leonard Kleinrock, du MIT, publie le premier article sur la théorie de la commutation de paquets, posant les bases de l'Internet.
+1967 : Lawrence Roberts, à la DARPA, présente les plans de l'ARPANET, le précurseur de l'Internet.
+• 1969 : L'ARPANET connecte quatre nœuds (UCLA, Stanford, UCSB et Utah). Le premier message, "LOGIN", se termine par un crash après "LO". 
+• 1972 : Ray Tomlinson crée le premier programme d'email et le format "nom@domaine“, le premier email envoyé est “QWERTYUP”
+• 1976 : Robert Metcalfe développe l'Ethernet pour connecter des ordinateurs sur le réseau local. La reine Elizabeth envoie un email au ministre de la défence britannique, son nom d’utilisateur est HME2 (Her Majesty, Elizabeth II)
+• 1989 : Tim Berners-Lee propose le World Wide Web au CERN.
+• 1990 : Tim Berners-Lee crée le premier navigateur hypertexte,  ouvrant la voie au Web moderne. Le premier moteur de recherche, Archie est crée par Peter Deutsch à l’université McGill.
+• 1991 : Les Etats-Unis approuvent l’utilisation d’internet par des compagnies privées, le premier achat est une pizza chez Pizza Hut en 94.
+• 1993 : Lancement de Mosaic, le premier navigateur graphique, qui deviendra par la suite Netscape.
+• 1995 : L'introduction en bourse de Netscape marque le début de la bulle Internet. Les enregistrements de domaines deviennent payants.
+• 2005 : Lancement de YouTube, révolutionnant le partage de contenu video, les estoniens votent aux municipals par Internet.
+• 2011 : Le nombre d'internautes atteint deux milliards.
+• 2012 : Facebook dépasse les un milliard d’utilisateurs actifs. Amazon deviant le principal hébergeur d’internet. Gangnam style dépasse le milliard de vues sur Youtube
+• 2013 : Twitter entre en bourse ; le trafic Internet est dominé par Netflix et YouTube (plus de 50% du traffic en bytes).
+</aside>
+
+</section>
+
+<section data-auto-animate>
+  <img src="images/arpanet-map.png" alt="Web history 7">
+</section>
 
 ---
 
-<div class="photo-dump">
+<section>
 
-![Picture 15](images/slide-013-picture-15.png)
-![Picture 29](images/slide-013-picture-29.png)
-![Picture 21](images/slide-013-picture-21.jpg)
-![Picture 19](images/slide-013-picture-19.jpg)
-![Picture 27](images/slide-013-picture-27.png)
-![Picture 17](images/slide-013-picture-17.jpg)
-![Picture 35](images/slide-013-picture-35.png)
-![Picture 23](images/slide-013-picture-23.jpg)
-![Picture 33](images/slide-013-picture-33.png)
-![Picture 25](images/slide-013-picture-25.jpg)
-![Picture 37](images/slide-013-picture-37.png)
+
+<div class=" r-stack" style="margin-top: 1em;">
+  <div class="text-content">
+    <table>
+      <tr>
+        <th>Version</th>
+        <th>Période</th>
+        <th>Caractéristique principals</th>
+      </tr>
+      <tr>
+        <td>Web 1.0</td>
+        <td>Année 1990-2000</td>
+        <td>Statique, lecture seule, peu interactif (HTML, CSS)</td>
+      </tr>
+      <tr>
+        <td>Web 2.0</td>
+        <td>Années 2000-2010</td>
+        <td>Social, interactif, participatif, centralisé, monétisation des données (API, JS, SQL)</td>
+      </tr>
+      <tr>
+        <td>Web 3.0</td>
+        <td>Années 2020</td>
+        <td>Sémantique, décentralisé, centrée sur les données (RDF, OWL)</td>
+      </tr>
+      <tr>
+        <td>Web 4.0</td>
+        <td>Futur proche</td>
+        <td>Intelligent, ubiquitaire, immersif (AR/VR, IoT, BCI)</td>
+      </tr>
+    </table>
+  </div>
+  <img class="fragment" src="images/deep-nn.png">
 </div>
-- [https://www.dontveter.com/index.html](https://www.dontveter.com/index.html)
-| Version | Période | Caractéristique principals |
-| --- | --- | --- |
-| Web 1.0 | Année 1990-2000 | Statique, lecture seule, peu interactif (HTML, CSS) |
-| Web 2.0 | Années 2000-2010 | Social, interactif, participatif, centralisé, monétisation des données (API, JS, SQL) |
-| Web 3.0 | Années 2020 | Sémantique, décentralisé, centrée sur les données (RDF, OWL) |
-| Web 4.0 | Futur proche | Intelligent, ubiquitaire, immersive (AR/VR, IoT, BCI) |
+
+<div class="image-grid-3col" >
+    <img src="images/slide-013-picture-29.png" style="width:60%" alt="Web logos 2">
+    <img src="images/slide-013-picture-19.jpg" style="width:60%" alt="Web logos 4">
+    <img src="images/slide-013-picture-27.png" style="width:60%" alt="Web logos 5">
+    <img src="images/slide-013-picture-17.jpg" style="width:60%" alt="Web logos 6">
+    <img src="images/slide-013-picture-23.jpg" style="width:60%" alt="Web logos 8">
+    <img src="images/slide-013-picture-33.png" style="width:50%" alt="Web logos 9">
+</div>
+
+</section>
 
 ---
 
-## Internet VS World Wide Web
-<div class="two-up">
+<section>
 
-![Picture 16](images/slide-014-picture-16.jpg)
-![Picture 14](images/slide-014-picture-14.jpg)
+<h2>Internet VS World Wide Web</h2>
+
+<div class="row-flex">
+  <div class="r-stretch">
+    <img src="images/slide-014-picture-14.jpg" alt="World Wide Web">
+    <img src="images/slide-014-picture-16.jpg" alt="Internet">
+  </div>
 </div>
+
+</section>
 
 ---
 
 ## Première page du World Wide Web
 ![object 6](images/slide-015-object-6.jpg)
-- [https://info.cern.ch/hypertext/WWW/TheProject.html](https://info.cern.ch/hypertext/WWW/TheProject.html)
 
 Note:
 On August 6, 1991, the first website was launched on the Internet, forever changing the way we browse. (And thankfully, web design has improved just a bit in the past two decades.) 
@@ -231,441 +290,578 @@ Web 4.0 pour le futur, pas d’infos du W3C, basé sur la blockchain, brain comp
 
 ---
 
-## D’un point de vue économique
-<div class="cols">
-<div class="col text">
-- Il y a eu la période de prospérité économique du milieu des années 1990. Les investisseurs disposaient alors d’importants capitaux à investir
-- De nombreuses entreprises ont été créées, donnant naissance à une multitude de services en ligne et, du
-- même coup, à une prolifération des sites Web.
-- C’est l’apparition de l’aire du dot.com
-</div>
-<div class="col media">
+<section>
 
-![Google Shape;601;p38](images/slide-016-google-shape-601-p38.jpg)
-</div>
+<h2>D'un point de vue économique</h2>
+
+<div class="row-flex">
+  <div class="text-content">
+    <ul>
+      <li>Il y a eu la période de prospérité économique du milieu des années 1990. Les investisseurs disposaient alors d'importants capitaux à investir</li>
+      <li>De nombreuses entreprises ont été créées, donnant naissance à une multitude de services en ligne et, du même coup, à une prolifération des sites Web</li>
+      <li>C'est l'apparition de l'aire du dot.com</li>
+    </ul>
+  </div>
+    <img src="images/slide-016-google-shape-601-p38.jpg" style="width:50%"alt="Économie du Web">
 </div>
 
-Note:
-2014 La barre du milliard de sites web est franchie.
-1995-2000 des sociétés pionnières comme Yahoo, Amazon, eBay, Netscape, Compuserve et AOL,
-La bulle spéculative éclata le 10 mars 2000 quand l'indice NASDAQ commença à chuter
+</section>
+
+---
+
+<section class="slide--section">
+
+<div class="rule"></div>
+<div class="row-flex">
+  <div class="text-content">
+<h1 class="r-fit-text">L'expérience utilisateur</h1>
+<p><em>Sur les interfaces Web</em></p>
+</div>
+
+
+</section>
 
 ---
 
 ## Le GUI et le début de l’UX
 <div class="cols">
-<div class="col text">
-- En novembre 1979 l’équipe d’Apple (S. Jobs) visite le PARC.
-- Des trois techniques présentées (Ethernet, smalltalk et GUI), Jobs retient que l’interface graphique.
+  <div class="col text">
+
+- En novembre 1979 l’équipe d’Apple (S. Jobs) visite le XEROX PARC.
+
+- Des trois techniques présentées (Ethernet, smalltalk et GUI), Jobs retient l’interface graphique.
+
 - Il vient de trouver la pièce manquante : l'OS doit être masqué pour l'utilisateur, via une interface graphique
-</div>
-<div class="col media">
 
-![Google Shape;601;p38](images/slide-017-google-shape-601-p38.png)
-</div>
-</div>
+  </div>
 
-Note:
-"En novembre 1979, Steve Jobs et son équipe d'Apple visitent Xerox PARC. Parmi les innovations présentées – Ethernet, Smalltalk et l'Interface Graphique Utilisateur (GUI) – c'est la GUI qui retient l'attention de Jobs. Cette technologie va inspirer la future interface des produits Apple, en plaçant l'accent sur une expérience utilisateur simplifiée et intuitive. Jobs réalise que masquer la complexité du système d'exploitation derrière une interface graphique conviviale est la clé pour rendre les ordinateurs accessibles à tous. Cette visite marque un tournant décisif dans la conception informatique, mettant l'expérience utilisateur au cœur de la technologie."
-
----
-
-## Utilisation du webAu québec et dans le monde
-<div class="cols">
-<div class="col text">
-- [https://datareportal.com/reports/digital-2024-canada](https://datareportal.com/reports/digital-2024-canada)
-- [https://datareportal.com/reports/digital-2024-global-overview-report](https://datareportal.com/reports/digital-2024-global-overview-report)
-</div>
-<div class="col media">
-
-![Google Shape;601;p38](images/slide-018-google-shape-601-p38.jpg)
-</div>
-</div>
-
-Note:
-D’après le CEFRIO En 2018, la presque totalité des adultes québécois (95 %) détient au moins un des cinq appareils électroniques suivants : ordinateur (portable ou de table), téléphone intelligent, tablette électronique, bracelet d'exercice connecté et montre intelligente.
-En 2018, 83 % des adultes québécois utilisaient au moins un réseau social dans le cadre de leur utilisation personnelle d'Internet, ce qui représente une hausse notable de 16 points de pourcentage par rapport à 2016.
-
----
-
-## Utilisation du Web
-<div class="cols">
-<div class="col text">
-- [https://websitesetup.org/news/how-many-websites-are-there/](https://websitesetup.org/news/how-many-websites-are-there/)
-Utilisation du Web
-- Nombre de sites web
-- Part des usagers
-- 24%
-- 33%
-- 37%
-- 20%
-- 59%
-- 70%
-- 17%
-- [https://wearesocial.com/uk/blog/2010/01/social-technographics-ladder/](https://wearesocial.com/uk/blog/2010/01/social-technographics-ladder/)
-</div>
-<div class="col media">
-
-![Picture 2](images/slide-019-picture-2.png)
-![Google Shape;601;p38](images/slide-019-google-shape-601-p38.jpg)
-</div>
+  <div class="col media">
+    <div class="row-flex">
+    <img src="images/slide-017-google-shape-601-p38.png">
+    <iframe width="600" height="400" src="https://www.youtube.com/embed/6o5I20WcNUM" title="Xerox Parc • Démonstration de l&#39;interface graphique (1982)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
 </div>
 
 ---
 
-## Il y a plus d’1.2 milliard de sites web…
-- [https://www.worldwidewebsize.com/](https://www.worldwidewebsize.com/)
-- 17% de ces sites sont actifs, 83% sont inactifs.
-- 252,000 nouveaux sites web sont créés chaque jour
-- 3 nouveaux sites web sont créés chaque seconde
+<section>
+
+<h2>Utilisation du web au Québec et dans le monde</h2>
+
+<div class="row-flex">
+  <div class="text-content">
+    <p><strong>Ressources :</strong></p>
+    <ul>
+      <li><a href="https://datareportal.com/reports/digital-2026-canada">Data Report Canada 2026</a></li>
+      <li><a href="https://datareportal.com/reports/digital-2026-global-overview-report">Data Report Global 2026</a></li>
+      <li><a href="https://transformation-numerique.ulaval.ca/enquetes-et-mesures/netendances/portrait-numerique-des-regions-2024/">Portrait numérique des régions au Québec 2024</a></li>
+    </ul>
+  </div>
+</div>
+
+</section>
 
 ---
 
-## A quoi ressemblaient les sites ?
-### Source : http://www.telegraph.co.uk/technology/6125914/How-20-popular-websites-looked-when-they-launched.html
-<div class="two-up">
+<section>
 
-![object 10](images/slide-021-object-7-object-10.jpg)
-![object 8](images/slide-021-object-7-object-8.jpg)
+<h2>Utilisation du Web</h2>
+
+<div class="row-flex">
+  <div class="text-content">
+    <p><strong>Part des usagers (2009 !!) :</strong></p>
+    <ul>
+      <li>Créateur : 24%</li>
+      <li>Causeur : 33%</li>
+      <li>Critique : 37%</li>
+      <li>Collectionneur : 20%</li>
+      <li>Social: 59%</li>
+      <li>Spectateur : 70%</li>
+      <li>Inactif : 17%</li>
+    </ul>
+  </div>
+  <div class="image-stack">
+    <img src="images/slide-019-picture-2.png" alt="Stats 1">
+    <p><a href="https://wearesocial.com/uk/blog/2010/01/social-technographics-ladder/">Social Technographics Ladder</a></p>
+  </div>
 </div>
+
+Note: Inclus les usagers qui participent au moins une fois par mois aux activités indiqués.
+</section>
 
 ---
 
-## A quoi ressemblaient les sites ?
-### Source : http://www.telegraph.co.uk/technology/6125914/How-20-popular-websites-looked-when-they-launched.html
-<div class="two-up">
+<section>
 
-![object 9](images/slide-022-object-8-object-9.jpg)
-![object 10](images/slide-022-object-8-object-10.jpg)
+<h2>Il y a plus d'1.2 milliard de sites web…</h2>
+
+<div class="row-flex">
+  <div class="text-content">
+    <p><strong>Source :</strong> <a href="https://www.worldwidewebsize.com/">worldwidewebsize.com</a></p>
+    <ul>
+      <li>17% de ces sites sont actifs, 83% sont inactifs</li>
+      <li>252,000 nouveaux sites web sont créés chaque jour</li>
+      <li>3 nouveaux sites web sont créés chaque seconde</li>
+    </ul>
+  </div>
 </div>
+
+</section>
 
 ---
 
-## A quoi ressemblaient les sites ?
-### Source : http://www.telegraph.co.uk/technology/6125914/How-20-popular-websites-looked-when-they-launched.html
-<div class="two-up">
+<section>
 
-![object 8](images/slide-023-object-8.jpg)
-![object 9](images/slide-023-object-9.jpg)
+<h2>A quoi ressemblaient les sites ?</h2>
+
+
+<div class="row-flex">
+    <img src="images/slide-021-object-7-object-10.jpg" alt="Site historique 1">
+    <img src="images/slide-021-object-7-object-8.jpg" alt="Site historique 2">
 </div>
+
+  <div class="footnotes">
+    <p><strong>Source :</strong> <a href="http://www.telegraph.co.uk/technology/6125914/How-20-popular-websites-looked-when-they-launched.html">Telegraph - How 20 popular websites looked when they launched</a></p>
+  </div>
+
+</section>
 
 ---
 
-## A quoi ressemblaient les sites ?
-### Source : http://www.telegraph.co.uk/technology/6125914/How-20-popular-websites-looked-when-they-launched.html
-<div class="two-up">
+<section>
 
-![object 11](images/slide-024-object-7-object-11.jpg)
-![object 8](images/slide-024-object-7-object-8.jpg)
+<h2>A quoi ressemblaient les sites ?</h2>
+
+<div class="row-flex">
+    <img src="images/slide-022-object-8-object-9.jpg" alt="Site historique 3">
+    <img src="images/slide-022-object-8-object-10.jpg" alt="Site historique 4">
 </div>
+
+  <div class="footnotes">
+    <p><strong>Source :</strong> <a href="http://www.telegraph.co.uk/technology/6125914/How-20-popular-websites-looked-when-they-launched.html">Telegraph - How 20 popular websites looked when they launched</a></p>
+  </div>
+
+</section>
 
 ---
 
-## A quoi ressemblaient les sites ?
-### Source : http://www.telegraph.co.uk/technology/6125914/How-20-popular-websites-looked-when-they-launched.html
-![object 9](images/slide-025-object-8-object-9.jpg)
+<section>
+
+<h2>A quoi ressemblaient les sites ?</h2>
+
+<div class="row-flex">
+    <img src="images/slide-023-object-8.jpg" alt="Site historique 5">
+    <img src="images/slide-023-object-9.jpg" alt="Site historique 6">
+</div>
+
+  <div class="footnotes">
+    <p><strong>Source :</strong> <a href="http://www.telegraph.co.uk/technology/6125914/How-20-popular-websites-looked-when-they-launched.html">Telegraph - How 20 popular websites looked when they launched</a></p>
+  </div>
+
+</section>
 
 ---
 
-## A quoi ressemblaient les sites ?
-### Source : http://www.telegraph.co.uk/technology/6125914/How-20-popular-websites-looked-when-they-launched.html
-<div class="two-up">
+<section>
 
-![Picture 14](images/slide-026-picture-14.png)
-![Picture 12](images/slide-026-picture-12.png)
+<h2>A quoi ressemblaient les sites ?</h2>
+
+<div class="row-flex">
+    <img src="images/slide-024-object-7-object-11.jpg" alt="Site historique 7">
+    <img src="images/slide-024-object-7-object-8.jpg" alt="Site historique 8">
 </div>
+
+  <div class="footnotes">
+    <p><strong>Source :</strong> <a href="http://www.telegraph.co.uk/technology/6125914/How-20-popular-websites-looked-when-they-launched.html">Telegraph - How 20 popular websites looked when they launched</a></p>
+  </div>
+
+</section>
 
 ---
 
-## Rappel de notions élémentaires de l’ergonomie
+<section>
+
+<h2>A quoi ressemblaient les sites ?</h2>
+
+<img class="r-stretch" src="images/slide-025-object-8-object-9.jpg">
+
+  <div class="footnotes">
+    <p><strong>Source :</strong> <a href="http://www.telegraph.co.uk/technology/6125914/How-20-popular-websites-looked-when-they-launched.html">Telegraph - How 20 popular websites looked when they launched</a></p>
+  </div>
+
+</section>
 
 ---
 
-## La pire interface possible
-<div class="cols">
-<div class="col text">
-- [https://userinyerface.com/](https://userinyerface.com/)
-</div>
-<div class="col media">
-</div>
-</div>
+<section class="slide--section">
+  <div class="rule"></div>
+  <h1 class="r-fit-text">Introduction à l'ergonomie cognitive et son rapport à l'UX</h1>
+</section>
 
 ---
 
-## Focus sur l’ergonomie cognitive
-<div class="cols">
-<div class="col text">
-L'ergonomie cognitive s’intéresse aux processus mentaux, tels que la perception, la mémoire, le raisonnement et les réponses motrices.
-Les grands thèmes de l’ergonomie cognitive sont: la charge mentale, la prise de décision, l’utilité, la performance, la vigilance, la conscience de la situation, les modèles mentaux, le stress, etc...
-</div>
-<div class="col media">
+<section>
 
-![Google Shape;432;p49](images/slide-029-google-shape-432-p49.jpg)
+<h2>Mais tout d'abord: est-ce vraiment utile de faire de l'UX/ergonomie ???</h2>
+
+<div class="row-flex">
+  <div class="text-content">
+    <p><strong>Exemple :</strong> <a href="https://userinyerface.com/">userinyerface.com</a></p>
+  </div>
 </div>
-</div>
+
+</section>
 
 ---
 
-## Qu’est-ce que l’ergonomie cognitive
-![object 6](images/slide-030-object-6.png)
+<section>
+
+ ## L'ergonomie cognitive s'intéresse aux processus mentaux</p>
+
+<div class="row-flex">
+  <div class="text-content">
+    <p><strong>Les grands thèmes de l'ergonomie cognitive sont :</strong></p>
+    <ul>
+      <li>La perception</li>
+      <li>La charge mentale</li>
+      <li>La prise de décision</li>
+      <li>La mémoire</li>
+      <li>La performance</li>
+      <li>La vigilance</li>
+      <li>La conscience de la situation</li>
+      <li>Les modèles mentaux</li>
+      <li>Le stress</li>
+    </ul>
+  </div>
+</div>
+
+</section>
 
 ---
 
-## Une notion centrale en UX
-<div class="cols">
-<div class="col text">
-- Satisfaction
-- C’est la mesure du degré de facilité avec laquelle un utilisateur accomplit une tâche donnée.
-- Mais que veulent les utilisateurs ?
-- La possibilité d’accomplir leurs objectifs (ce pour quoi ils étaient venus visiter le site) sans faire d’erreurs et dans un temps raisonnable.
-- Efficacité
-- Efficience
-</div>
+<section>
+
+<h2>L'utilisabilité : Une notion centrale en UX</h2>
+
+<div class="row-flex">
+  <div class="text-content">
+    <p>C'est la mesure du degré de facilité avec laquelle un utilisateur accomplit une tâche donnée.</p>
+    <p>Souvent exprimé selon 3 grandes dimensions:</p>
+    <ul>
+      <li><strong>Efficacité</strong>: le produit permet à ses utilisateurs d'atteindre le résultat prévu</li>
+      <li><strong>Efficience</strong>: atteint le résultat avec un effort moindre ou requiert un temps minimal</li>
+      <li><strong>Satisfaction</strong>: confort et évaluation subjective de l'interaction pour l'utilisateur</li>
+    </ul>
+  </div>
 </div>
 
-Note:
-L’efficacité: le produit permet à ses utilisateurs d’atteindre le résultat prévu ;
-L’efficience: atteint le résultat avec un effort moindre ou
-requiert un temps minimal ;
-La satisfaction: confort et évaluation subjective de
-l’interaction pour l’utilisateur.
+</section>
 
 ---
 
-## Sensoriel (visuel et auditif)
-### Couleur, contraste, grosseur du texte, sous-titrage…
-<div class="cols">
-<div class="col text">
-Moteur (tremblement, arthrite,…)
-Grosseur des cibles, type d’interactions
-Cognitif (mémoire, traitement de l’information)
-qualité informationnelle, complexité des textes, rétroaction, persuasion, intention, intérêt, attentes …
-</div>
-<div class="col media">
+<section>
 
-![Graphic 2](images/slide-032-graphic-2.png)
-![Graphic 4](images/slide-032-graphic-4.png)
-![Graphic 6](images/slide-032-graphic-6.png)
-</div>
-</div>
+<h2>Zoom sur la perception visuelle</h2>
 
----
+<div class="row-flex">
+  <div class="text-content">
+    <p>C'est par le sens de la vue que nous percevons:</p>
+    <ul>
+      <li>La lumière</li>
+      <li>Les formes</li>
+      <li>Les couleurs</li>
+    </ul>
+    <p>Et que nous distinguons :</p>
+    <ul>
+      <li>Les détails des objets</li>
+      <li>Leur distance</li>
+      <li>Leur relief</li>
+    </ul>
+  </div>
 
-## Zoom sur la perception visuelle
-<div class="cols">
-<div class="col text">
-- C'est par le sens de la vue que nous percevons:
-- La lumière
-- Les formes
-- Les couleurs
-- Et que nous distinguons :
-- Les détails des objets,
-- Leur distance
-- Leur relief
-</div>
-<div class="col media">
-
-![Google Shape;432;p49](images/slide-033-google-shape-432-p49.png)
-</div>
+  <div class="image-stack">
+    <img src="images/slide-033-google-shape-432-p49.png" alt="Perception visuelle">
+  </div>
 </div>
 
-Note:
-C'est par le sens de la vue que nous percevons la lumière, les formes et les couleurs, que nous distinguons les détails des objets, leur distance et leur relief.
-
-Les cônes et les bâtonnets sont des neurones très courts qui se distinguent par leur forme et par la nature des pigments photosensibles qu'ils contiennent.
-Les cônes ont une résolution spatiale très élevée et sont sensibles aux formes et aux couleurs des objets ; ce sont les cellules de la vision diurne. Il en existe près de 7 millions et sont particulièrement concentrés dans la partie centrale de la rétine, appelée fovéa ou macula.
+Notes: Les cônes ont une résolution spatiale très élevée et sont sensibles aux formes et aux couleurs des objets ; ce sont les cellules de la vision diurne. Il en existe près de 7 millions et sont particulièrement concentrés dans la partie centrale de la rétine, appelée fovéa ou macula.
 Les bâtonnets, au nombre de 130 millions, sont quant à eux extrêmement sensibles à la lumière (100 fois plus sensibles que les cônes) mais aussi au mouvement ; ce sont les cellules de la vision nocturne.
 
----
-
-## Perception visuelle et daltonisme
-<div class="cols">
-<div class="col text">
-</div>
-<div class="col media">
-
-![object 6](images/slide-034-object-6.jpg)
-</div>
-</div>
-
-Note:
-C'est par le sens de la vue que nous percevons la lumière, les formes et les couleurs, que nous distinguons les détails des objets, leur distance et leur relief.
-
-Les cônes et les bâtonnets sont des neurones très courts qui se distinguent par leur forme et par la nature des pigments photosensibles qu'ils contiennent.
-Les cônes ont une résolution spatiale très élevée et sont sensibles aux formes et aux couleurs des objets ; ce sont les cellules de la vision diurne. Il en existe près de 7 millions et sont particulièrement concentrés dans la partie centrale de la rétine, appelée fovéa ou macula.
-Les bâtonnets, au nombre de 130 millions, sont quant à eux extrêmement sensibles à la lumière (100 fois plus sensibles que les cônes) mais aussi au mouvement ; ce sont les cellules de la vision nocturne.
+</section>
 
 ---
 
-## Perception visuelle et daltonisme : protanope
-<div class="cols">
-<div class="col text">
+<section>
 
-- [https://www.toptal.com/designers/colorfilter/](https://www.toptal.com/designers/colorfilter/)
-</div>
-<div class="col media">
+<h2>Perception visuelle et daltonisme</h2>
 
-![object 6](images/slide-035-object-6.jpg)
+<div class="row-flex">
+  <div class="image-stack">
+    <img src="images/slide-034-object-6.jpg" alt="Daltonisme">
+  </div>
 </div>
-</div>
+
+</section>
 
 ---
 
-## Perception visuelle et daltonisme : Deutéranope
-<div class="cols">
-<div class="col text">
-- [https://www.toptal.com/designers/colorfilter/](https://www.toptal.com/designers/colorfilter/)
-</div>
-<div class="col media">
+<section>
 
-![object 6](images/slide-036-object-6.jpg)
+<h2>Perception visuelle et daltonisme : protanope</h2>
+
+<div class="row-flex">
+  <div class="text-content">
+    <p><strong>Outil :</strong> <a href="https://www.toptal.com/designers/colorfilter/">Color Filter Tool</a></p>
+  </div>
+
+  <div class="image-stack">
+    <img src="images/slide-035-object-6.jpg" alt="Protanope">
+  </div>
 </div>
-</div>
+
+</section>
 
 ---
 
-## Perception visuelle et daltonisme : Achromatopsie
-<div class="cols">
-<div class="col text">
-- [https://www.toptal.com/designers/colorfilter/](https://www.toptal.com/designers/colorfilter/)
-</div>
-<div class="col media">
+<section>
 
-![object 6](images/slide-037-object-6.jpg)
+<h2>Perception visuelle et daltonisme : Deutéranope</h2>
+
+<div class="row-flex">
+  <div class="text-content">
+    <p><strong>Outil :</strong> <a href="https://www.toptal.com/designers/colorfilter/">Color Filter Tool</a></p>
+  </div>
+
+  <div class="image-stack">
+    <img src="images/slide-036-object-6.jpg" alt="Deutéranope">
+  </div>
 </div>
-</div>
+
+</section>
 
 ---
 
-## Perception visuelle et daltonisme : exemples
-### Source: https://colour-blindness.org/guide
-<div class="two-up">
+<section>
 
-![object 9](images/slide-038-object-7-object-9.png)
-![object 8](images/slide-038-object-7-object-8.jpg)
+<h2>Perception visuelle et daltonisme : Achromatopsie</h2>
+
+<div class="row-flex">
+  <div class="text-content">
+    <p><strong>Outil :</strong> <a href="https://www.toptal.com/designers/colorfilter/">Color Filter Tool</a></p>
+  </div>
+
+  <div class="image-stack">
+    <img src="images/slide-037-object-6.jpg" alt="Achromatopsie">
+  </div>
 </div>
+
+</section>
 
 ---
 
-## Les lois de la gelstat
-<div class="cols">
-<div class="col text">
-Le mot allemand Gestalt est traduit par « forme »
-Ce sont des principes de la perception.
-Devant la complexité de notre environnement, le cerveau va chercher à mettre en forme, à donner une structure signifiante à ce qu’il perçoit, afin de le simplifier et de l’organiser.
+<section>
+
+<h2>Perception visuelle et daltonisme : exemples</h2>
+
+<div class="row-flex">
+  <div class="text-content">
+    <p><strong>Source :</strong> <a href="https://colour-blindness.org/guide">colour-blindness.org/guide</a></p>
+  </div>
 </div>
-<div class="col media">
-![object 8](images/slide-039-object-8.jpg)
+
+<div class="row-flex">
+  <div class="image-stack">
+    <img src="images/slide-038-object-7-object-9.png" alt="Exemple 1">
+    <img src="images/slide-038-object-7-object-8.jpg" alt="Exemple 2">
+  </div>
 </div>
-</div>
+
+</section>
 
 ---
 
-## Les lois de la gelstat
-### Source: https://fr.slideshare.net/mccasal/lois-de-la-gestalt-et-webdesign
-<div class="cols">
-<div class="col text">
-</div>
-<div class="col media">
+<section>
 
-![object 6](images/slide-040-object-6.jpg)
-</div>
+<h2>Les lois de la Gestalt</h2>
+
+<div class="row-flex">
+  <div class="text-content">
+    <p>Le mot allemand Gestalt est traduit par « forme »</p>
+    <p>Ce sont des principes de la perception.</p>
+    <p>Devant la complexité de notre environnement, le cerveau va chercher à mettre en forme, à donner une structure signifiante à ce qu'il perçoit, afin de le simplifier et de l'organiser.</p>
+  </div>
+
+  <div class="image-stack">
+    <img src="images/slide-039-object-8.jpg" alt="Gestalt">
+  </div>
 </div>
 
-Note:
-La loi de la proximité plus forte que la loi de la similitude
+</section>
 
 ---
 
-## Les lois de la gelstat
-### Source: https://fr.slideshare.net/mccasal/lois-de-la-gestalt-et-webdesign
-<div class="cols">
-<div class="col text">
-</div>
-<div class="col media">
+<section>
 
-![object 9](images/slide-041-object-9.jpg)
-</div>
+<h2>Les lois de la Gestalt</h2>
+
+<div class="row-flex">
+  <div class="text-content">
+    <p><strong>Source :</strong> <a href="https://fr.slideshare.net/mccasal/lois-de-la-gestalt-et-webdesign">Lois de la Gestalt et webdesign</a></p>
+  </div>
 </div>
 
-Note:
-La loi de la proximité plus forte que la loi de la similitude
+<img class="r-stretch" src="images/slide-040-object-6.jpg">
+
+<div class="footnotes">
+  <div class="fn-item">
+    <span class="fn-num">Note.</span>
+    <span class="fn-text">La loi de la proximité plus forte que la loi de la similitude</span>
+  </div>
+</div>
+
+</section>
 
 ---
 
-## Source: https://fr.slideshare.net/mccasal/lois-de-la-gestalt-et-webdesign
-### Dans ce cas précis il s’agit d’une paréidolie visuelle, la reconnaissance d’une forme familière dans un paysage
-<div class="cols">
-<div class="col text">
-Loi de Prägnanz (la bonne forme) : Il s’agit de la tendance à interpréter les images ambiguës comme si elles étaient simples et complètes. On parle également de « loi de bonne configuration », « loi de simplicité » ou « loi de précision ».
-;-)
-</div>
-<div class="col media">
+<section>
 
-![object 12](images/slide-042-object-12.jpg)
-![Google Shape;435;p49](images/slide-042-google-shape-435-p49.png)
+<h2>Les lois de la Gestalt</h2>
+
+<div class="row-flex">
+  <div class="text-content">
+    <p><strong>Source :</strong> <a href="https://fr.slideshare.net/mccasal/lois-de-la-gestalt-et-webdesign">Lois de la Gestalt et webdesign</a></p>
+  </div>
 </div>
+
+<img class="r-stretch" src="images/slide-041-object-9.jpg">
+
+<div class="footnotes">
+  <div class="fn-item">
+    <span class="fn-num">Note.</span>
+    <span class="fn-text">La loi de la proximité plus forte que la loi de la similitude</span>
+  </div>
 </div>
+
+</section>
 
 ---
 
-## L’effet Zeigarnik
-<div class="cols">
-<div class="col text">
-Bluma Zeigarnik a mis en évidence, après une sortie au restaurant, que les serveurs ne semblaient pas se rappeler des détails des commandes qui étaient terminées, mais se rappelaient toutes celles en cours (ex. l’ordre).
-Nos esprits oublient rapidement les tâches finies. Cependant, ils sont programmés pour nous rappeler incessamment celles que nous ne terminons pas.” – Dr. Bluma Zeigarnik.
-Au cinéma : l’utilisation d’un cliffhanger (À SUIVRE/ c’est l’équivalent d’une pause)
-Web: Amazon – Mettre de côté
-Limite: il est nécessaire que votre objectif vous passionne un minimum, et que vous ayez vraiment envie de le voir accompli…
-</div>
-<div class="col media">
+<section>
 
-![Picture 11](images/slide-043-picture-11.bmp)
-</div>
+<h2>Loi de Prägnanz (la bonne forme)</h2>
+
+<div class="row-flex">
+  <div class="text-content">
+    <p><strong>Source :</strong> <a href="https://fr.slideshare.net/mccasal/lois-de-la-gestalt-et-webdesign">Lois de la Gestalt et webdesign</a></p>
+    <p>Il s'agit de la tendance à interpréter les images ambiguës comme si elles étaient simples et complètes. On parle également de « loi de bonne configuration », « loi de simplicité » ou « loi de précision ».</p>
+    <p>Dans ce cas précis il s'agit d'une paréidolie visuelle, la reconnaissance d'une forme familière dans un paysage.</p>
+    <p>;-)</p>
+  </div>
+
+  <div class="image-stack">
+    <img src="images/slide-042-object-12.jpg" alt="Paréidolie">
+    <img src="images/slide-042-google-shape-435-p49.png" alt="Bonne forme">
+  </div>
 </div>
 
-Note:
-Psychologue russe.
+</section>
 
 ---
 
-## La loi de Hick
-### Situation
-<div class="cols">
-<div class="col text">
-- La loi de Hick prétend que plus l’on donne de choix à un utilisateur, plus la réponse de celui-ci sera longue et
-- différée.
-- La solution à cette problématique est donc de restreindre le nombre de choix et d’options au minimum acceptable.
-- Attention donc aux menus, aux liens croisés, aux pages inutiles, aux boutons redondants et non pertinents.
-Réaction
-</div>
-<div class="col media">
+<section>
 
-![Picture 5](images/slide-044-picture-5.jpg)
-![Picture 9](images/slide-044-picture-9.jpg)
+<h2>L'effet Zeigarnik</h2>
+
+<div class="row-flex">
+  <div class="text-content">
+    <p>Bluma Zeigarnik a mis en évidence, après une sortie au restaurant, que les serveurs ne semblaient pas se rappeler des détails des commandes qui étaient terminées, mais se rappelaient toutes celles en cours (ex. l'ordre).</p>
+    <p><em>« Nos esprits oublient rapidement les tâches finies. Cependant, ils sont programmés pour nous rappeler incessamment celles que nous ne terminons pas. »</em> – Dr. Bluma Zeigarnik</p>
+    <p><strong>Applications :</strong></p>
+    <ul>
+      <li>Au cinéma : l'utilisation d'un cliffhanger (À SUIVRE/ c'est l'équivalent d'une pause)</li>
+      <li>Web: Amazon – Mettre de côté</li>
+      <li>Limite: il est nécessaire que votre objectif vous passionne un minimum, et que vous ayez vraiment envie de le voir accompli…</li>
+    </ul>
+  </div>
+
+  <div class="image-stack">
+    <img src="images/slide-043-picture-11.bmp" alt="Bluma Zeigarnik">
+  </div>
 </div>
+
+<div class="footnotes">
+  <div class="fn-item">
+    <span class="fn-num">Note.</span>
+    <span class="fn-text">Psychologue russe.</span>
+  </div>
 </div>
+
+</section>
 
 ---
 
-## La loi de Hick
-### Loi de Hick, temps de réponse en fonction du nombre de choix
-<div class="two-up">
+<section>
 
-![object 6](images/slide-045-object-6.jpg)
-![Picture 6](images/slide-045-picture-6.png)
+<h2>La loi de Hick</h2>
+<h3>Situation</h3>
+
+<div class="row-flex">
+  <div class="text-content">
+    <ul>
+      <li>La loi de Hick prétend que plus l'on donne de choix à un utilisateur, plus la réponse de celui-ci sera longue et différée</li>
+      <li>La solution à cette problématique est donc de restreindre le nombre de choix et d'options au minimum acceptable</li>
+      <li>Attention donc aux menus, aux liens croisés, aux pages inutiles, aux boutons redondants et non pertinents</li>
+    </ul>
+    <p><strong>Réaction</strong></p>
+  </div>
+
+  <div class="image-stack">
+    <img src="images/slide-044-picture-5.jpg" alt="Situation">
+    <img src="images/slide-044-picture-9.jpg" alt="Réaction">
+  </div>
 </div>
 
-Note:
-T : le temps de réponse.
-a et b : une constante expérimentale en fonction de la situation.
-n : le nombre de choix. Le +1 correspond à la décision de répondre ou non.
+</section>
 
 ---
 
-## La loi de Hick – Exemple
-![Picture 2](images/slide-046-picture-2.png)
-- [https://arngren.net/](https://arngren.net/)
+<section>
+
+<h2>La loi de Hick</h2>
+<h3>Loi de Hick, temps de réponse en fonction du nombre de choix</h3>
+
+<div class="row-flex">
+  <div class="image-stack">
+    <img src="images/slide-045-object-6.jpg" alt="Formule">
+    <img src="images/slide-045-picture-6.png" alt="Graphique">
+  </div>
+</div>
+
+<div class="footnotes">
+  <div class="fn-item">
+    <span class="fn-num">Formule.</span>
+    <span class="fn-text">T : le temps de réponse. a et b : une constante expérimentale en fonction de la situation. n : le nombre de choix. Le +1 correspond à la décision de répondre ou non.</span>
+  </div>
+</div>
+
+</section>
+
+---
+
+<section>
+
+<h2>La loi de Hick – Exemple</h2>
+
+<div class="row-flex">
+  <div class="text-content">
+    <p><a href="https://arngren.net/">https://arngren.net/</a></p>
+  </div>
+</div>
+
+<img class="r-stretch" src="images/slide-046-picture-2.png">
+
+</section>
 
 ---
 
@@ -696,47 +892,54 @@ la perception visuelle
 Rien n’oblige en effet à ce que la zone cliquable de votre bouton soit strictement limitée à la représentation graphique de ce dernier. Vous pouvez faire déborder la zone d’action du bouton afin de fluidifier son utilisation.
 
 Le temps de pointage typique = 0,5 et 1 seconde.
+---
+
+<section>
+
+<h2>La loi de Fitts</h2>
+
+<div class="row-flex">
+  <div class="text-content">
+    <p><strong>Source :</strong> <a href="http://particletree.com/features/visualizing-fittss-law/">Visualizing Fitts's Law</a></p>
+  </div>
+</div>
+
+<img class="r-stretch" src="images/slide-048-object-9.jpg">
+
+</section>
 
 ---
 
-## La loi de Fitts
-### Source: http://particletree.com/features/visualizing-fittss-law/
-<div class="cols">
-<div class="col text">
-</div>
-<div class="col media">
+<section>
 
-![object 9](images/slide-048-object-9.jpg)
-</div>
+<h2>La loi de Fitts</h2>
+<h3>Adaptée aux écrans tactiles</h3>
+
+<div class="row-flex">
+  <div class="text-content">
+    <p><strong>Source :</strong> <a href="http://particletree.com/features/visualizing-fittss-law/">Visualizing Fitts's Law</a></p>
+  </div>
 </div>
 
----
+<img class="r-stretch" src="images/slide-049-object-9.jpg">
 
-## La loi de Fitts
-### Adaptée aux écrans tactiles
-<div class="cols">
-<div class="col text">
-
-Source: http://particletree.com/features/visualizing-fittss-law/
-</div>
-<div class="col media">
-
-![object 9](images/slide-049-object-9.jpg)
-</div>
-</div>
+</section>
 
 ---
 
-## Mobile :
-### Source: http://particletree.com/features/visualizing-fittss-law/
-<div class="cols">
-<div class="col text">
-</div>
-<div class="col media">
+<section>
 
-![object 9](images/slide-050-object-9.jpg)
+<h2>Mobile :</h2>
+
+<div class="row-flex">
+  <div class="text-content">
+    <p><strong>Source :</strong> <a href="http://particletree.com/features/visualizing-fittss-law/">Visualizing Fitts's Law</a></p>
+  </div>
 </div>
-</div>
+
+<img class="r-stretch" src="images/slide-050-object-9.jpg">
+
+</section>
 
 ---
 
