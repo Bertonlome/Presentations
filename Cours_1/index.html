@@ -45,6 +45,7 @@
   <!-- Reveal core + plugins -->
   <script src="../node_modules/reveal.js/dist/reveal.js"></script>
   <script src="../node_modules/reveal.js/plugin/markdown/markdown.js"></script>
+  <script src="../node_modules/reveal.js/plugin/math/math.js"></script>
   <script src="../node_modules/reveal.js/plugin/notes/notes.js"></script>
   <script src="../node_modules/reveal.js/plugin/zoom/zoom.js"></script>
 
@@ -66,7 +67,7 @@
       navigationMode: 'default',
       slideNumber: true,
       scrollProgress: true,  // Force the scrollbar to remain visible
-      plugins: [ RevealMarkdown, RevealNotes, RevealZoom ]
+      plugins: [ RevealMarkdown, RevealNotes, RevealZoom, RevealMath]
     });
     // After init, add custom keybindings
     deck.initialize().then(() => {

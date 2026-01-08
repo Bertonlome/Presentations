@@ -20,6 +20,90 @@
 
 ---
 
+<section>
+
+<h2>Utilisation du web au Québec et dans le monde</h2>
+
+<div class="row-flex">
+  <div class="text-content">
+    <p><strong>Ressources :</strong></p>
+    <ul>
+      <li><a href="https://datareportal.com/reports/digital-2026-canada">Data Report Canada 2026</a></li>
+      <li><a href="https://datareportal.com/reports/digital-2026-global-overview-report">Data Report Global 2026</a></li>
+      <li><a href="https://transformation-numerique.ulaval.ca/enquetes-et-mesures/netendances/portrait-numerique-des-regions-2024/">Portrait numérique des régions au Québec 2024</a></li>
+    </ul>
+  </div>
+</div>
+
+</section>
+
+---
+<section>
+
+<h2>Utilisation du Web</h2>
+
+<div class="row-flex">
+  <div class="text-content">
+    <p><strong>Part des usagers (2009 !!) :</strong></p>
+    <ul>
+      <li>Créateur : 24%</li>
+      <li>Causeur : 33%</li>
+      <li>Critique : 37%</li>
+      <li>Collectionneur : 20%</li>
+      <li>Social: 59%</li>
+      <li>Spectateur : 70%</li>
+      <li>Inactif : 17%</li>
+    </ul>
+  </div>
+  <div class="image-stack">
+    <img src="images/slide-019-picture-2.png" alt="Stats 1">
+    <p><a href="https://wearesocial.com/uk/blog/2010/01/social-technographics-ladder/">Social Technographics Ladder</a></p>
+  </div>
+</div>
+
+Note: Inclus les usagers qui participent au moins une fois par mois aux activités indiqués.
+</section>
+
+---
+
+<section>
+
+<h2>Il y a plus d'1.2 milliard de sites web…</h2>
+
+<div class="row-flex">
+  <div class="text-content">
+    <p><strong>Source :</strong> <a href="https://www.worldwidewebsize.com/">worldwidewebsize.com</a></p>
+    <ul>
+      <li>17% de ces sites sont actifs, 83% sont inactifs</li>
+      <li>252,000 nouveaux sites web sont créés chaque jour</li>
+      <li>3 nouveaux sites web sont créés chaque seconde</li>
+    </ul>
+  </div>
+</div>
+
+</section>
+
+---
+
+<section>
+
+<h2>D'un point de vue économique</h2>
+
+<div class="row-flex">
+  <div class="text-content">
+    <ul>
+      <li>Il y a eu la période de prospérité économique du milieu des années 1990. Les investisseurs disposaient alors d'importants capitaux à investir</li>
+      <li>De nombreuses entreprises ont été créées, donnant naissance à une multitude de services en ligne et, du même coup, à une prolifération des sites Web</li>
+      <li>C'est l'apparition de l'aire du dot.com</li>
+    </ul>
+  </div>
+    <img src="images/slide-016-google-shape-601-p38.jpg" style="width:50%"alt="Économie du Web">
+</div>
+
+</section>
+
+---
+
 <!-- .slide: class="toc" -->
 ## Projet #1
 | | |
