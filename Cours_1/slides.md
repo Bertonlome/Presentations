@@ -40,12 +40,25 @@
 
 ---
 
+<section>
+
 <h1>Ma recherche</h1>
 <h2>Réalité augmentée</h2>
+
 <div class="row-flex">
 <img style="width : 220%" src="images/toucans_article.png">
 <img src="images/discodeck.png">
 </div>
+Notes: 
+Cybersickness --> questionnaire standardisé
+Fatigue musculaire --> Electromyographe de surface
+Fatigue visuelle --> Critical-Flicker-Fusion-Frequency
+Visual clutter --> modèle de Rosenholtz
+Visual strategy --> Eye-tracking + motion data + signal detection theory
+Situation awareness --> SART
+Mental workload --> NASA-TLX
+Usability --> SUS score
+</section>
 ---
 
 <h2>Intéraction humain-IA</h2>
@@ -59,7 +72,7 @@
 ---
 
 <h2>Modélisation cognitive</h2>
-<img class="r-stretch" src="images/ACT-R.png">
+<img class="row-flex" width="70%%" src="images/ACT-R.png">
 ---
 
 <h2>Modélisation cognitive</h2>
@@ -467,6 +480,10 @@ Web 4.0 pour le futur, pas d’infos du W3C, basé sur la blockchain, brain comp
 
 ---
 
+<p>https://www.csfieldguide.org.nz/en/interactives/fitts-law/</p>
+
+---
+
  <h1>L'ergonomie cognitive</h1>
 
   <p><strong>Les grands thèmes de l'ergonomie cognitive sont :</strong></p>
@@ -605,6 +622,7 @@ Les bâtonnets, au nombre de 130 millions, sont quant à eux extrêmement sensib
   <img class="r-stretch fragment" src="images/gelstat_8.png">
   <img class="r-stretch fragment" src="images/gelstat_9.png">
   <img class="r-stretch fragment" src="images/form_example.png">
+  <img class="r-stretch fragment" width="80%" src="images/overhead_panel.png">
 </div>
 <div class="footnotes">
   <div class="fn-item">
@@ -623,7 +641,7 @@ Enclosure > Connectedness > Proximity > Similarity
 
 <section>
 
-<h2>Perception visuelle: Les lois de la Gestalt</h2>
+<h2>Perception visuelle: Les lois de la Gestalt - visualisation de données</h2>
 
 <img class="r-stretch" src="images/gelstat_graph.svg">
 
