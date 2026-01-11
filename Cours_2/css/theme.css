@@ -66,6 +66,57 @@ body.dark-mode .reveal {
   border-radius: 8px;
   background: #fff;
 }
+
+.footer-image {
+  position: absolute;
+  bottom: calc(var(--grid-b) - 600px);
+  right: calc(var(--grid-r) + 1300px);
+  width: 200px;
+  height: auto;
+  opacity: 1;
+}
+
+/* Formal retro academic table styling */
+.reveal table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1em 0;
+  font-family: var(--font-main);
+  font-size: 0.85em;
+  line-height: 1.4;
+}
+
+.reveal table thead {
+  border-bottom: 2px solid var(--fg);
+}
+
+.reveal table th {
+  font-weight: 700;
+  text-align: center;
+  padding: 0.6em 0.8em;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  font-size: 0.9em;
+}
+
+.reveal table td {
+  padding: 0.5em 0.8em;
+  border-bottom: 1px solid var(--fg);
+  vertical-align: top;
+}
+
+.reveal table tbody tr:last-child td {
+  border-bottom: 0px solid var(--fg);
+}
+
+.reveal table caption {
+  font-style: italic;
+  text-align: left;
+  padding: 0.4em 0;
+  margin-bottom: 0.5em;
+  font-size: 0.95em;
+}
+
 /* Title slide helpers */
 .kicker {
   font-family: var(--font-accent);
@@ -122,6 +173,67 @@ body.dark-mode .reveal {
   height: auto;
 }
 
+/* Table of contents (up to 4 columns) */
+.reveal .toc {
+  display: grid;
+  /* Default to 1 column; progressively increase up to 4 based on item count */
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+  gap: 2em;
+  width: 100%;
+  max-width: 95%;
+  margin: 0 auto;
+  padding: 0;
+  counter-reset: toc-item;
+  list-style: none;
+}
+
+/* Use 2/3/4 columns when enough items exist (caps at 4) */
+.reveal .toc:has(> *:nth-child(2)) {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.reveal .toc:has(> *:nth-child(3)) {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.reveal .toc:has(> *:nth-child(4)) {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.reveal .toc > * {
+  counter-increment: toc-item;
+  display: flex;
+  gap: 1em;
+  align-items: baseline;
+  margin: 0;
+  border: 4px solid var(--fg);
+  border-radius: 10px;
+  padding: 1em 1em;
+  box-sizing: border-box;
+}
+
+/* Allow long titles to wrap inside the flex item (prevents overflow) */
+.reveal .toc > * > * {
+  min-width: 0;
+}
+
+.reveal .toc > *::before {
+  content: counter(toc-item) ".";
+  font-family: var(--font-accent);
+  font-weight: 700;
+  flex: 0 0 auto;
+}
+
+.reveal .toc p,
+.reveal .toc li {
+  margin: 0;
+  flex: 1 1 auto;
+  min-width: 0;
+  white-space: normal;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
 /* Container for stacked images (vertical layout) */
 .reveal .row-flex .image-stack {
   display: flex;
@@ -137,6 +249,34 @@ body.dark-mode .reveal {
   max-height: 20em;  /* Limit each image height */
   height: auto;
   object-fit: contain;  /* Maintain aspect ratio */
+}
+
+/* Container for images in a 2-column grid */
+.reveal .image-grid-2col {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5em;
+  width: 50%;
+}
+
+.reveal .image-grid-2col img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Container for images in a 3-column grid */
+.reveal .image-grid-3col {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
+  width: 100%;
+}
+
+.reveal .image-grid-3col img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 
 /* ===============================
