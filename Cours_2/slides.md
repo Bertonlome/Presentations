@@ -8,7 +8,7 @@
     <p><em>IND8412A - Expérience utilisateur pour le Web</em></p>
   </div>
 
-  <img class="footer-image" src="images/slide-001-picture-3.png">
+  <img class="footer-image" src="images/poly_logo.png">
 </div>
 
 </section>
@@ -99,12 +99,11 @@ Inclus les usagers qui participent au moins une fois par mois aux activités ind
 <div class="row-flex">
   <div class="text-content">
     <ul>
-      <li>Il y a eu la période de prospérité économique du milieu des années 1990. Les investisseurs disposaient alors d'importants capitaux à investir</li>
-      <li>De nombreuses entreprises ont été créées, donnant naissance à une multitude de services en ligne et, du même coup, à une prolifération des sites Web</li>
+      <li>Période de prospérité économique du milieu des années 1990.</li>
+      <li>Nombreuses entreprises créées, multitude de services en ligne et prolifération des sites Web.</li>
       <li>C'est l'apparition de l'aire du dot.com</li>
     </ul>
   </div>
-  <img src="images/slide-016-google-shape-601-p38.jpg" style="width:50%" alt="Économie du Web">
 </div>
 
 </section>
@@ -121,17 +120,26 @@ Inclus les usagers qui participent au moins une fois par mois aux activités ind
 
 <section>
 
+<h2>La norme ISO 9241</h2>
+
+  <ul>
+    <li>ISO 9241</li>
+    <li>Ergonomie de l'interaction homme-système</li>
+  </ul>
+  <img src="images/iso.png">
+
+</section>
+
+---
+
+<section>
+
 <h2>La norme ISO 9241-210</h2>
 
-<div class="row-flex">
-  <div class="text-content">
-    <ul>
-      <li>ISO 9241-210:2019</li>
-      <li>Ergonomics of human-system interaction</li>
-      <li>Part 210: Human-centred design for interactive systems</li>
-    </ul>
-  </div>
-</div>
+  <ul>
+    <li>Part 210: Conception centrée sur l'être humain pour les systèmes interactifs.</li>
+  </ul>
+  <img src="images/iso_9241.png">
 
 </section>
 
@@ -167,20 +175,11 @@ annule et remplace la norme ISO 13407
 
 <section>
 
-<h2>Planifier le processus de conception</h2>
+<h2>La norme ISO 9241-210</h2>
 
-<div class="row-flex">
-  <div class="text-content">
-    <p><strong>Comprendre et specifier le contexte d'utilisation</strong></p>
-    <ul>
-      <li>Les exigences sont atteintes</li>
-      <li>Les exigences ne sont pas atteintes</li>
-    </ul>
-    <p><strong>Evaluer les solutions au regard des exigences prédéfinies</strong></p>
-    <p><strong>Comprendre et specifier les exigences utilisateurs et organisationnelles</strong></p>
-    <p><strong>Produire des solutions de conception</strong></p>
-  </div>
-</div>
+  <img class="r-stretch" src="images/diagramme_iso.svg">
+
+</section>
 
 <aside class="notes">
 Principale différence :
@@ -195,10 +194,11 @@ Principale différence :
 <section>
 
 <h2>Revue de la norme</h2>
-<h3>ISO 9241-210 : Les phases - Planification</h3>
+<h3>Les phases</h3>
 
 <div class="row-flex">
   <div class="text-content">
+    <p><strong>Planification</strong></p>
     <ul>
       <li>Planifier la mise en oeuvre de la démarche de conception</li>
       <li>Définir les plans techniques, méthodologiques, et de conduite de projet</li>
@@ -207,8 +207,7 @@ Principale différence :
     <ul>
       <li>La population cible et ses caractéristiques</li>
       <li>Ses buts</li>
-      <li>Ses environnements</li>
-      <li>Les données nécessaires sont souvent recueillies au moyen d'entretiens et d'observations auprès d'utilisateurs cibles</li>
+      <li>Son contexte</li>
     </ul>
   </div>
 </div>
@@ -220,15 +219,15 @@ Principale différence :
 <section>
 
 <h2>Revue de la norme</h2>
-<h3>ISO 9241-210 : Les phases - Spécification et Conception</h3>
+<h3>Les phases</h3>
 
 <div class="row-flex">
   <div class="text-content">
     <p><strong>Spécification des exigences liées à l'utilisateur et à l'organisation :</strong></p>
-    <p>Il s'agit de prendre en compte les besoins, les objectifs et les attentes de tous les utilisateurs du système (incluant l'organisation/commanditaire).</p>
+    <p>prise en compte des besoins, des objectifs et des attentes des utilisateurs du système (incluant l'organisation/commanditaire).</p>
     <p><strong>Conception :</strong></p>
-    <p>Il s'agit d'utiliser les connaissances acquises lors des étapes précédentes pour conceptualiser les solutions. Cette phase se traduit par le développement de prototypes que l'on peut visualiser, manipuler et tester.</p>
-    <p>Voici certains éléments du système qui seront développés : les schémas d'interfaces, les fonctionnalités, la navigation, les styles d'interaction, les dispositifs d'entrée/sortie, le soutien à l'utilisateur, etc.</p>
+    <p>Utiliser les connaissances pour conceptualiser les solutions. </p>
+    <p>développement de prototypes</p>
   </div>
 </div>
 
@@ -239,15 +238,15 @@ Principale différence :
 <section>
 
 <h2>Revue de la norme</h2>
-<h3>ISO 9241-210 : Les phases - Évaluation</h3>
+<h3>Les phases</h3>
 
 <div class="row-flex">
   <div class="text-content">
     <p><strong>Évaluation de la ou des solutions conçues :</strong></p>
-    <p>Cette étape vise à évaluer les solutions conçues en fonction des exigences documentées aux étapes précédentes. Dans cette phase, les utilisateurs finaux sont impliqués.</p>
+    <p>évaluation en fonction des exigences documentées aux étapes précédentes.</p>
     <p><strong>On mesure :</strong></p>
     <ul>
-      <li>La performance du système à répondre aux attentes et aux besoins des utilisateurs en matière d'ergonomie</li>
+      <li>La performance du système à répondre aux attentes et aux besoins des utilisateurs</li>
       <li>Le niveau de satisfaction</li>
     </ul>
     <p>Sur la base des résultats obtenus, on apporte des modifications au prototype que l'on va retester selon une approche itérative.</p>
@@ -267,136 +266,6 @@ l'animateur de la session de test)
 Le rythme d'apprentissage
 La satisfaction des utilisateurs…
 </aside>
-
-</section>
-
----
-
-<section class="slide--section">
-  <div class="rule"></div>
-  <h1 class="r-fit-text">Les acteurs de la conception</h1>
-  <p><em>Dans les projets Web</em></p>
-</section>
-
----
-
-<section>
-
-<h2>La genèse de la notion de conception</h2>
-
-<div class="row-flex">
-  <div class="text-content">
-    <p><strong>Jusqu'à la renaissance :</strong> Domaine de l'artisan</p>
-    <p><strong>Révolution industrielle :</strong> Rôles d'idéation et de fabrication</p>
-    <p><strong>Dans les années 1830 :</strong> L'organisation scientifique du travail, séparation des rôles de conception et d'exécution</p>
-    <p><strong>1900-1920 :</strong> Les courtiers d'annonces apparaissent. A cette époque, les annonceurs rédigeaient eux-mêmes leurs annonces (Gaertner, 2008)</p>
-    <p>La spécialisation des métiers de conception ne viendra qu'avec la diversification des supports publicitaires (affiches, cinéma, radio) (Gaertner, op.cit.)</p>
-  </div>
-</div>
-
-</section>
-
----
-
-<section>
-
-<h2>La genèse de la notion de conception</h2>
-<h3>L'acte de conception, un duo créatif</h3>
-
-<div class="row-flex">
-  <div class="text-content">
-    <p><strong>Après la Grande Guerre :</strong></p>
-    <p>Les courtiers s'effacent progressivement au profit des agences de publicité.</p>
-    <p>La création des publicités consiste à imaginer une idée et à la mettre en images et en mots. C'est le travail de l'équipe de création ("creative team") composée d'un Directeur Artistique (DA) et d'un Concepteur Rédacteur (CR) (Gaertner, Op.Cit.)</p>
-    <p><strong>Depuis 1960 :</strong></p>
-    <ul>
-      <li>Le marketing fait son apparition. Son rôle est de prédire les tendances des marchés. (Lendrevie et Lindon, 1990)</li>
-      <li>Le chef de publicité, au départ polyvalent, se centre sur la gestion de la relation avec l'annonceur et la réflexion stratégique.</li>
-    </ul>
-    <p>D'un duo créatif à une action pluridisciplinaire</p>
-  </div>
-</div>
-
-</section>
-
----
-
-<section>
-
-<h2>La genèse de la notion de conception</h2>
-<h3>Intégration de l'ergonome dans la démarche de conception</h3>
-
-<div class="row-flex">
-  <div class="text-content">
-    <ul>
-      <li><strong>1857 :</strong> Le mot ergonomie a été créé par l'ingénieur Polonais Wojciech Jastrzebowski.</li>
-      <li><strong>1949 :</strong> Le mot ergonomie a été redécouvert par l'ingénieur et psychologue anglais Hywell Murrel</li>
-      <li><strong>1982 :</strong> La communauté de recherche s'organise en Europe autour de la notion d'ergonomie cognitive mise en avant par Thomas Green et Gerrit Van der Veer.</li>
-      <li><strong>1995-2000 :</strong> L'ergonomie fait son apparition dans les agences de communication avec « l'économie numérique » (Lazonick, 2007)</li>
-    </ul>
-  </div>
-</div>
-
-<aside class="notes">
-C'est dans les années 1850 que le terme "ergonomie" est créé par le biais de la publication du "Précis d'Ergonomie" par Wojciech Jastrzebowski (Polonais).
-
-Murell réinvente le terme une décennie après . L'ergonomie est l'étude scientifique des relations entre l'homme et son environnement de travail. Murell est considéré comme le père fondateur.
-
-En 1949, lors de la première réunion de l'Ergonomics Research Society, avec l'intervention refondatrice de l'ingénieur et psychologue gallois Keith Frank Hywel Murell (1908-1984).Cette société est à l'origine de la création de l'International Ergonomics Association (IEA) qui tient son premier congrès à Oxford en 1961.
-
-Thomas Green, Gerrit van der Veer et quelques autres collègues organisent la première conférence européenne en EC à Amsterdam: « Mind and Computers ».
-</aside>
-
-</section>
-
----
-
-<section>
-
-<h2>Les acteurs</h2>
-
-<div class="row-flex">
-  <div class="text-content">
-    <p><strong>Pourquoi parler des acteurs du processus ?</strong></p>
-    <ul>
-      <li>Afin de mieux comprendre le travail du reste de l'équipe</li>
-      <li>Afin de mieux connaître ce que les autres attendent de notre propre travail</li>
-      <li>Afin de collaborer avec tous les intervenants de façon plus harmonieuse.</li>
-    </ul>
-  </div>
-</div>
-
-</section>
-
----
-
-<section>
-
-<h2>L'ergonome d'interface</h2>
-
-<div class="row-flex">
-  <div class="image-stack">
-    <img src="images/slide-015-google-shape-432-p49.png" alt="Ergonome 1">
-    <img src="images/slide-015-google-shape-435-p49.png" alt="Ergonome 2">
-  </div>
-</div>
-
-</section>
-
----
-
-<section>
-
-<h2>Les acteurs – Ergonome d'Interface</h2>
-
-<div class="row-flex">
-  <div class="text-content">
-    <p><strong>Rôles :</strong> Selon Jordan (2000), les ergonomes des interfaces sont les acteurs du processus de conception chargés de l'ensemble des éléments relatifs à la valeur d'usage du produit.</p>
-    <p><strong>Leur équipe de travail :</strong> Les ergonomes sont souvent rattachés à la Direction de création ou à la Direction de la communication. Les ergonomes des interfaces peuvent soit travailler comme consultant dans un cabinet, soit comme travailleur indépendant, soit comme membre intégré à l'équipe projet dans de grandes entreprises.</p>
-    <p><strong>La formation requise :</strong> Selon l'Association Canadienne d'Ergonomie, « la formation de l'ergonome peut grandement varier étant donné que l'ergonomie couvre un vaste champ d'application. »</p>
-    <p>« Bien que l'ergonome puisse être détenteur d'un diplôme en psychologie, ingénierie, informatique, etc., cette formation en soi n'est pas suffisante pour s'attribuer le titre d'ergonome. L'ergonome doit suivre divers cours universitaires, qui couvrent plusieurs champs de connaissances de l'ergonomie » – l'Association Canadienne d'Ergonomie.</p>
-  </div>
-</div>
 
 </section>
 
@@ -425,7 +294,6 @@ Thomas Green, Gerrit van der Veer et quelques autres collègues organisent la pr
   <div class="text-content">
     <p>Le UI designer est un terme lié aux interfaces digitales.</p>
     <p>Son rôle est de tenir compte de l'apparence, de la sensation et de l'interactivité du produit. Il s'agit de s'assurer que l'interface utilisateur d'un produit est aussi intuitive que possible, ce qui implique d'examiner attentivement chaque élément visuel et interactif que l'utilisateur peut rencontrer.</p>
-    <p>Un concepteur d'interface utilisateur pensera aux icônes et aux boutons, à la typographie et aux combinaisons de couleurs, à l'espacement, à l'imagerie et à un design réactif (responsive).</p>
   </div>
 </div>
 
@@ -448,5 +316,3 @@ Thomas Green, Gerrit van der Veer et quelques autres collègues organisent la pr
 </div>
 
 </section>
-
----
