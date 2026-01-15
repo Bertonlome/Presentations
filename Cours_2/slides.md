@@ -273,29 +273,31 @@ La satisfaction des utilisateurs…
 
 <section>
 
-<h2>UX designer – Tâches et fonctions</h2>
+<h2>UX/UI quelles différences ?</h2>
+<img src="images/definition_ux.png">
 
 <div class="row-flex">
   <div class="text-content">
-    <p>La définition de Don Norman nous dit que l'UX Design englobe toutes les interactions entre un utilisateur potentiel ou existant et une entreprise.</p>
-    <p>Le UX designer réfléchit à la façon dont l'utilisateur se sent et à la facilité avec laquelle il peut accomplir les tâches qu'il souhaite.</p>
+    <p>Norman et Nielsen : l'UX Design englobe toutes les interactions entre un utilisateur potentiel ou existant et une entreprise.</p>
+    <p>Le UX designer réfléchit à la façon dont l'utilisateur se sent et à la facilité avec laquelle il peut accomplir les tâches qu'il souhaite. Cela englobe tous les aspects de l'interaction, pas seulement le "site web"</p>
   </div>
 </div>
-
 </section>
 
 ---
 
 <section>
 
-<h2>UI designer – Tâches et fonctions</h2>
-
+<h2>UX/UI quelles différences ?</h2>
 <div class="row-flex">
   <div class="text-content">
     <p>Le UI designer est un terme lié aux interfaces digitales.</p>
-    <p>Son rôle est de tenir compte de l'apparence, de la sensation et de l'interactivité du produit. Il s'agit de s'assurer que l'interface utilisateur d'un produit est aussi intuitive que possible, ce qui implique d'examiner attentivement chaque élément visuel et interactif que l'utilisateur peut rencontrer.</p>
+    <p>Son rôle est de tenir compte de l'apparence, de la sensation et de l'interactivité de l'interface du produit</p>
   </div>
 </div>
+<img src="images/netflix.png">
+
+<aside class="notes">Transférer les points forts et les « assets » visuels de la marque à l'interface d'un produit, en s'assurant que le design est cohérent, homogène et esthétiquement agréable</aside>
 
 </section>
 
@@ -303,16 +305,6 @@ La satisfaction des utilisateurs…
 
 <section>
 
-<h2>UI designer – Tâches et fonctions</h2>
-
-<div class="row-flex">
-  <div class="text-content">
-    <ul>
-      <li>Concevoir pour guider visuellement l'utilisateur à travers l'interface d'un produit.</li>
-      <li>Créer une expérience intuitive</li>
-      <li>Transférer les points forts et les « assets » visuels de la marque à l'interface d'un produit, en s'assurant que le design est cohérent, homogène et esthétiquement agréable.</li>
-    </ul>
-  </div>
-</div>
+<h2>Un mot sur le Design thinking / Participatory design / Lean / Agile / ...</h2>
 
 </section>
